@@ -1,0 +1,1849 @@
+Region,Source,Year,Data,Unit
+BC,Biomass,2005,810.92,MW
+BC,Biomass,2006,810.92,MW
+BC,Biomass,2007,810.92,MW
+BC,Biomass,2008,810.92,MW
+BC,Biomass,2009,810.92,MW
+BC,Biomass,2010,858.92,MW
+BC,Biomass,2011,860.19,MW
+BC,Biomass,2012,860.19,MW
+BC,Biomass,2013,885.59,MW
+BC,Biomass,2014,885.59,MW
+BC,Biomass,2015,885.59,MW
+AB,Biomass,2005,271,MW
+AB,Biomass,2006,313.1,MW
+AB,Biomass,2007,313.1,MW
+AB,Biomass,2008,313.1,MW
+AB,Biomass,2009,323.2,MW
+AB,Biomass,2010,340.2,MW
+AB,Biomass,2011,358.697,MW
+AB,Biomass,2012,413.797,MW
+AB,Biomass,2013,416.646,MW
+AB,Biomass,2014,438.3,MW
+AB,Biomass,2015,428,MW
+SK,Biomass,2005,0,MW
+SK,Biomass,2006,0,MW
+SK,Biomass,2007,0,MW
+SK,Biomass,2008,0,MW
+SK,Biomass,2009,0,MW
+SK,Biomass,2010,0,MW
+SK,Biomass,2011,0,MW
+SK,Biomass,2012,0,MW
+SK,Biomass,2013,0,MW
+SK,Biomass,2014,1.6,MW
+SK,Biomass,2015,1.6,MW
+MB,Biomass,2005,22,MW
+MB,Biomass,2006,22,MW
+MB,Biomass,2007,22,MW
+MB,Biomass,2008,22,MW
+MB,Biomass,2009,22,MW
+MB,Biomass,2010,22,MW
+MB,Biomass,2011,22,MW
+MB,Biomass,2012,22,MW
+MB,Biomass,2013,22,MW
+MB,Biomass,2014,22,MW
+MB,Biomass,2015,22,MW
+ON,Biomass,2005,209,MW
+ON,Biomass,2006,176,MW
+ON,Biomass,2007,176,MW
+ON,Biomass,2008,148,MW
+ON,Biomass,2009,207,MW
+ON,Biomass,2010,207,MW
+ON,Biomass,2011,207,MW
+ON,Biomass,2012,207,MW
+ON,Biomass,2013,207,MW
+ON,Biomass,2014,592,MW
+ON,Biomass,2015,574,MW
+QC,Biomass,2005,278.16,MW
+QC,Biomass,2006,278.16,MW
+QC,Biomass,2007,278.16,MW
+QC,Biomass,2008,229.66,MW
+QC,Biomass,2009,229.66,MW
+QC,Biomass,2010,229.66,MW
+QC,Biomass,2011,239.64,MW
+QC,Biomass,2012,239.64,MW
+QC,Biomass,2013,239.64,MW
+QC,Biomass,2014,239.64,MW
+QC,Biomass,2015,244.84,MW
+NB,Biomass,2005,127.3,MW
+NB,Biomass,2006,127.3,MW
+NB,Biomass,2007,127.3,MW
+NB,Biomass,2008,127.3,MW
+NB,Biomass,2009,127.3,MW
+NB,Biomass,2010,127.3,MW
+NB,Biomass,2011,127.3,MW
+NB,Biomass,2012,127.3,MW
+NB,Biomass,2013,127.3,MW
+NB,Biomass,2014,127.3,MW
+NB,Biomass,2015,127.3,MW
+NS,Biomass,2005,68.62,MW
+NS,Biomass,2006,66.12,MW
+NS,Biomass,2007,66.12,MW
+NS,Biomass,2008,66.12,MW
+NS,Biomass,2009,66.12,MW
+NS,Biomass,2010,66.12,MW
+NS,Biomass,2011,66.12,MW
+NS,Biomass,2012,66.12,MW
+NS,Biomass,2013,66.12,MW
+NS,Biomass,2014,112.56,MW
+NS,Biomass,2015,112.56,MW
+PE,Biomass,2005,1,MW
+PE,Biomass,2006,1,MW
+PE,Biomass,2007,1,MW
+PE,Biomass,2008,1,MW
+PE,Biomass,2009,1,MW
+PE,Biomass,2010,1,MW
+PE,Biomass,2011,1,MW
+PE,Biomass,2012,1,MW
+PE,Biomass,2013,1,MW
+PE,Biomass,2014,1,MW
+PE,Biomass,2015,1,MW
+NF,Biomass,2005,0,MW
+NF,Biomass,2006,0,MW
+NF,Biomass,2007,0,MW
+NF,Biomass,2008,0,MW
+NF,Biomass,2009,0,MW
+NF,Biomass,2010,0,MW
+NF,Biomass,2011,0,MW
+NF,Biomass,2012,0,MW
+NF,Biomass,2013,0,MW
+NF,Biomass,2014,0,MW
+NF,Biomass,2015,0,MW
+NWT,Biomass,2005,0,MW
+NWT,Biomass,2006,0,MW
+NWT,Biomass,2007,0,MW
+NWT,Biomass,2008,0,MW
+NWT,Biomass,2009,0,MW
+NWT,Biomass,2010,0,MW
+NWT,Biomass,2011,0,MW
+NWT,Biomass,2012,0,MW
+NWT,Biomass,2013,0,MW
+NWT,Biomass,2014,0,MW
+NWT,Biomass,2015,0,MW
+YT,Biomass,2005,0,MW
+YT,Biomass,2006,0,MW
+YT,Biomass,2007,0,MW
+YT,Biomass,2008,0,MW
+YT,Biomass,2009,0,MW
+YT,Biomass,2010,0,MW
+YT,Biomass,2011,0,MW
+YT,Biomass,2012,0,MW
+YT,Biomass,2013,0,MW
+YT,Biomass,2014,0,MW
+YT,Biomass,2015,0,MW
+NU,Biomass,2005,0,MW
+NU,Biomass,2006,0,MW
+NU,Biomass,2007,0,MW
+NU,Biomass,2008,0,MW
+NU,Biomass,2009,0,MW
+NU,Biomass,2010,0,MW
+NU,Biomass,2011,0,MW
+NU,Biomass,2012,0,MW
+NU,Biomass,2013,0,MW
+NU,Biomass,2014,0,MW
+NU,Biomass,2015,0,MW
+Canada,Biomass,2005,1788,MW
+Canada,Biomass,2006,1794.6,MW
+Canada,Biomass,2007,1794.6,MW
+Canada,Biomass,2008,1718.1,MW
+Canada,Biomass,2009,1787.2,MW
+Canada,Biomass,2010,1852.2,MW
+Canada,Biomass,2011,1881.947,MW
+Canada,Biomass,2012,1937.047,MW
+Canada,Biomass,2013,1965.296,MW
+Canada,Biomass,2014,2419.99,MW
+Canada,Biomass,2015,2396.89,MW
+BC,Coal,2005,0,MW
+BC,Coal,2006,0,MW
+BC,Coal,2007,0,MW
+BC,Coal,2008,0,MW
+BC,Coal,2009,0,MW
+BC,Coal,2010,0,MW
+BC,Coal,2011,0,MW
+BC,Coal,2012,0,MW
+BC,Coal,2013,0,MW
+BC,Coal,2014,0,MW
+BC,Coal,2015,0,MW
+AB,Coal,2005,5839.6,MW
+AB,Coal,2006,5863.6,MW
+AB,Coal,2007,5917.9,MW
+AB,Coal,2008,5918.3,MW
+AB,Coal,2009,5971.3,MW
+AB,Coal,2010,5735.3,MW
+AB,Coal,2011,5631.8,MW
+AB,Coal,2012,5690.327322,MW
+AB,Coal,2013,6258.3,MW
+AB,Coal,2014,6258,MW
+AB,Coal,2015,6266.8,MW
+SK,Coal,2005,1818.38,MW
+SK,Coal,2006,1800,MW
+SK,Coal,2007,1800,MW
+SK,Coal,2008,1822,MW
+SK,Coal,2009,1822,MW
+SK,Coal,2010,1826,MW
+SK,Coal,2011,1826,MW
+SK,Coal,2012,1826,MW
+SK,Coal,2013,1756,MW
+SK,Coal,2014,1651,MW
+SK,Coal,2015,1651.38,MW
+MB,Coal,2005,97.64,MW
+MB,Coal,2006,97.64,MW
+MB,Coal,2007,97.64,MW
+MB,Coal,2008,97.64,MW
+MB,Coal,2009,97.64,MW
+MB,Coal,2010,97.64,MW
+MB,Coal,2011,97.64,MW
+MB,Coal,2012,97.64,MW
+MB,Coal,2013,97.64,MW
+MB,Coal,2014,97.64,MW
+MB,Coal,2015,97.64,MW
+ON,Coal,2005,6437,MW
+ON,Coal,2006,6329,MW
+ON,Coal,2007,6339,MW
+ON,Coal,2008,6077,MW
+ON,Coal,2009,6077,MW
+ON,Coal,2010,4487,MW
+ON,Coal,2011,4275,MW
+ON,Coal,2012,3296,MW
+ON,Coal,2013,2291,MW
+ON,Coal,2014,153,MW
+ON,Coal,2015,0,MW
+QC,Coal,2005,0,MW
+QC,Coal,2006,0,MW
+QC,Coal,2007,0,MW
+QC,Coal,2008,0,MW
+QC,Coal,2009,0,MW
+QC,Coal,2010,0,MW
+QC,Coal,2011,0,MW
+QC,Coal,2012,0,MW
+QC,Coal,2013,0,MW
+QC,Coal,2014,0,MW
+QC,Coal,2015,0,MW
+NB,Coal,2005,541,MW
+NB,Coal,2006,541,MW
+NB,Coal,2007,541,MW
+NB,Coal,2008,541,MW
+NB,Coal,2009,541,MW
+NB,Coal,2010,490,MW
+NB,Coal,2011,490,MW
+NB,Coal,2012,490,MW
+NB,Coal,2013,490,MW
+NB,Coal,2014,490,MW
+NB,Coal,2015,490,MW
+NS,Coal,2005,1288,MW
+NS,Coal,2006,1288,MW
+NS,Coal,2007,1288,MW
+NS,Coal,2008,1288,MW
+NS,Coal,2009,1288,MW
+NS,Coal,2010,1288,MW
+NS,Coal,2011,1288,MW
+NS,Coal,2012,1288,MW
+NS,Coal,2013,1288,MW
+NS,Coal,2014,1288,MW
+NS,Coal,2015,1288,MW
+PE,Coal,2005,0,MW
+PE,Coal,2006,0,MW
+PE,Coal,2007,0,MW
+PE,Coal,2008,0,MW
+PE,Coal,2009,0,MW
+PE,Coal,2010,0,MW
+PE,Coal,2011,0,MW
+PE,Coal,2012,0,MW
+PE,Coal,2013,0,MW
+PE,Coal,2014,0,MW
+PE,Coal,2015,0,MW
+NF,Coal,2005,0,MW
+NF,Coal,2006,0,MW
+NF,Coal,2007,0,MW
+NF,Coal,2008,0,MW
+NF,Coal,2009,0,MW
+NF,Coal,2010,0,MW
+NF,Coal,2011,0,MW
+NF,Coal,2012,0,MW
+NF,Coal,2013,0,MW
+NF,Coal,2014,0,MW
+NF,Coal,2015,0,MW
+NWT,Coal,2005,0,MW
+NWT,Coal,2006,0,MW
+NWT,Coal,2007,0,MW
+NWT,Coal,2008,0,MW
+NWT,Coal,2009,0,MW
+NWT,Coal,2010,0,MW
+NWT,Coal,2011,0,MW
+NWT,Coal,2012,0,MW
+NWT,Coal,2013,0,MW
+NWT,Coal,2014,0,MW
+NWT,Coal,2015,0,MW
+YT,Coal,2005,0,MW
+YT,Coal,2006,0,MW
+YT,Coal,2007,0,MW
+YT,Coal,2008,0,MW
+YT,Coal,2009,0,MW
+YT,Coal,2010,0,MW
+YT,Coal,2011,0,MW
+YT,Coal,2012,0,MW
+YT,Coal,2013,0,MW
+YT,Coal,2014,0,MW
+YT,Coal,2015,0,MW
+NU,Coal,2005,0,MW
+NU,Coal,2006,0,MW
+NU,Coal,2007,0,MW
+NU,Coal,2008,0,MW
+NU,Coal,2009,0,MW
+NU,Coal,2010,0,MW
+NU,Coal,2011,0,MW
+NU,Coal,2012,0,MW
+NU,Coal,2013,0,MW
+NU,Coal,2014,0,MW
+NU,Coal,2015,0,MW
+Canada,Coal,2005,16021.62,MW
+Canada,Coal,2006,15919.24,MW
+Canada,Coal,2007,15983.54,MW
+Canada,Coal,2008,15743.94,MW
+Canada,Coal,2009,15796.94,MW
+Canada,Coal,2010,13923.94,MW
+Canada,Coal,2011,13608.44,MW
+Canada,Coal,2012,12687.96732,MW
+Canada,Coal,2013,12180.94,MW
+Canada,Coal,2014,9937.64,MW
+Canada,Coal,2015,9793.82,MW
+BC,Hydro,2005,12847.49,MW
+BC,Hydro,2006,12613.697,MW
+BC,Hydro,2007,12660.898,MW
+BC,Hydro,2008,12733.048,MW
+BC,Hydro,2009,12858.248,MW
+BC,Hydro,2010,13201.771,MW
+BC,Hydro,2011,13672.762,MW
+BC,Hydro,2012,13672.762,MW
+BC,Hydro,2013,13686.852,MW
+BC,Hydro,2014,14206.752,MW
+BC,Hydro,2015,15029,MW
+AB,Hydro,2005,869,MW
+AB,Hydro,2006,874.35,MW
+AB,Hydro,2007,874.35,MW
+AB,Hydro,2008,874.35,MW
+AB,Hydro,2009,874.35,MW
+AB,Hydro,2010,874.35,MW
+AB,Hydro,2011,879,MW
+AB,Hydro,2012,894,MW
+AB,Hydro,2013,894,MW
+AB,Hydro,2014,894,MW
+AB,Hydro,2015,894,MW
+SK,Hydro,2005,854,MW
+SK,Hydro,2006,853,MW
+SK,Hydro,2007,853,MW
+SK,Hydro,2008,853,MW
+SK,Hydro,2009,853,MW
+SK,Hydro,2010,853,MW
+SK,Hydro,2011,853,MW
+SK,Hydro,2012,853,MW
+SK,Hydro,2013,863,MW
+SK,Hydro,2014,864,MW
+SK,Hydro,2015,889,MW
+MB,Hydro,2005,5037.79,MW
+MB,Hydro,2006,5037.79,MW
+MB,Hydro,2007,5037.79,MW
+MB,Hydro,2008,5037.79,MW
+MB,Hydro,2009,5037.79,MW
+MB,Hydro,2010,5037.79,MW
+MB,Hydro,2011,5037.79,MW
+MB,Hydro,2012,5037.79,MW
+MB,Hydro,2013,5238.79,MW
+MB,Hydro,2014,5238.79,MW
+MB,Hydro,2015,5238.79,MW
+ON,Hydro,2005,8504.76,MW
+ON,Hydro,2006,8410.08,MW
+ON,Hydro,2007,8410.08,MW
+ON,Hydro,2008,8416.08,MW
+ON,Hydro,2009,8424.08,MW
+ON,Hydro,2010,8463.08,MW
+ON,Hydro,2011,8524.08,MW
+ON,Hydro,2012,8524.08,MW
+ON,Hydro,2013,8565.08,MW
+ON,Hydro,2014,8972,MW
+ON,Hydro,2015,8768,MW
+QC,Hydro,2005,36473.477,MW
+QC,Hydro,2006,36685.549,MW
+QC,Hydro,2007,37439.617,MW
+QC,Hydro,2008,38264.765,MW
+QC,Hydro,2009,38414.05,MW
+QC,Hydro,2010,38426.46,MW
+QC,Hydro,2011,38183.753,MW
+QC,Hydro,2012,39216.8,MW
+QC,Hydro,2013,38433.353,MW
+QC,Hydro,2014,40034.257,MW
+QC,Hydro,2015,40211.97,MW
+NB,Hydro,2005,948.95,MW
+NB,Hydro,2006,948.95,MW
+NB,Hydro,2007,948.95,MW
+NB,Hydro,2008,948.95,MW
+NB,Hydro,2009,948.95,MW
+NB,Hydro,2010,948.95,MW
+NB,Hydro,2011,956.8,MW
+NB,Hydro,2012,956.8,MW
+NB,Hydro,2013,956.8,MW
+NB,Hydro,2014,956.8,MW
+NB,Hydro,2015,956.8,MW
+NS,Hydro,2005,403.75,MW
+NS,Hydro,2006,403.75,MW
+NS,Hydro,2007,403.75,MW
+NS,Hydro,2008,403.75,MW
+NS,Hydro,2009,403.75,MW
+NS,Hydro,2010,373.75,MW
+NS,Hydro,2011,375.58,MW
+NS,Hydro,2012,375.58,MW
+NS,Hydro,2013,375.58,MW
+NS,Hydro,2014,375.58,MW
+NS,Hydro,2015,375.58,MW
+PE,Hydro,2005,0,MW
+PE,Hydro,2006,0,MW
+PE,Hydro,2007,0,MW
+PE,Hydro,2008,0,MW
+PE,Hydro,2009,0,MW
+PE,Hydro,2010,0,MW
+PE,Hydro,2011,0,MW
+PE,Hydro,2012,0,MW
+PE,Hydro,2013,0,MW
+PE,Hydro,2014,0,MW
+PE,Hydro,2015,0,MW
+NF,Hydro,2005,6780.06,MW
+NF,Hydro,2006,6775.45,MW
+NF,Hydro,2007,6776.8,MW
+NF,Hydro,2008,6776.8,MW
+NF,Hydro,2009,6781.05,MW
+NF,Hydro,2010,6781.05,MW
+NF,Hydro,2011,6788.7,MW
+NF,Hydro,2012,6783.06,MW
+NF,Hydro,2013,6788.7,MW
+NF,Hydro,2014,6766.42,MW
+NF,Hydro,2015,6766.42,MW
+NWT,Hydro,2005,65,MW
+NWT,Hydro,2006,41.7,MW
+NWT,Hydro,2007,43,MW
+NWT,Hydro,2008,55.7,MW
+NWT,Hydro,2009,55.7,MW
+NWT,Hydro,2010,55.7,MW
+NWT,Hydro,2011,55.7,MW
+NWT,Hydro,2012,55.7,MW
+NWT,Hydro,2013,55.7,MW
+NWT,Hydro,2014,55.7,MW
+NWT,Hydro,2015,55.7,MW
+YT,Hydro,2005,76.7,MW
+YT,Hydro,2006,76.7,MW
+YT,Hydro,2007,77.9,MW
+YT,Hydro,2008,77.9,MW
+YT,Hydro,2009,77.9,MW
+YT,Hydro,2010,77.9,MW
+YT,Hydro,2011,94.5,MW
+YT,Hydro,2012,94.5,MW
+YT,Hydro,2013,94.5,MW
+YT,Hydro,2014,94.5,MW
+YT,Hydro,2015,94.5,MW
+NU,Hydro,2005,0,MW
+NU,Hydro,2006,0,MW
+NU,Hydro,2007,0,MW
+NU,Hydro,2008,0,MW
+NU,Hydro,2009,0,MW
+NU,Hydro,2010,0,MW
+NU,Hydro,2011,0,MW
+NU,Hydro,2012,0,MW
+NU,Hydro,2013,0,MW
+NU,Hydro,2014,0,MW
+NU,Hydro,2015,0,MW
+Canada,Hydro,2005,72860.977,MW
+Canada,Hydro,2006,72721.016,MW
+Canada,Hydro,2007,73526.135,MW
+Canada,Hydro,2008,74442.133,MW
+Canada,Hydro,2009,74728.868,MW
+Canada,Hydro,2010,75093.801,MW
+Canada,Hydro,2011,75421.665,MW
+Canada,Hydro,2012,76464.072,MW
+Canada,Hydro,2013,75952.355,MW
+Canada,Hydro,2014,78458.799,MW
+Canada,Hydro,2015,79279.76,MW
+BC,Natural Gas,2005,1320,MW
+BC,Natural Gas,2006,1425,MW
+BC,Natural Gas,2007,1425,MW
+BC,Natural Gas,2008,1425,MW
+BC,Natural Gas,2009,1425,MW
+BC,Natural Gas,2010,1425,MW
+BC,Natural Gas,2011,1425.2,MW
+BC,Natural Gas,2012,1425,MW
+BC,Natural Gas,2013,1425,MW
+BC,Natural Gas,2014,1425,MW
+BC,Natural Gas,2015,1425,MW
+AB,Natural Gas,2005,4770.2,MW
+AB,Natural Gas,2006,4324.5,MW
+AB,Natural Gas,2007,4425.2,MW
+AB,Natural Gas,2008,4823.4,MW
+AB,Natural Gas,2009,5138.6,MW
+AB,Natural Gas,2010,5217.5,MW
+AB,Natural Gas,2011,5251.454333,MW
+AB,Natural Gas,2012,5682.755,MW
+AB,Natural Gas,2013,5811.2,MW
+AB,Natural Gas,2014,6160.63,MW
+AB,Natural Gas,2015,7214,MW
+SK,Natural Gas,2005,1053.45,MW
+SK,Natural Gas,2006,1053.45,MW
+SK,Natural Gas,2007,1053.45,MW
+SK,Natural Gas,2008,1053.45,MW
+SK,Natural Gas,2009,1146.45,MW
+SK,Natural Gas,2010,1393.95,MW
+SK,Natural Gas,2011,1393.95,MW
+SK,Natural Gas,2012,1394,MW
+SK,Natural Gas,2013,1328,MW
+SK,Natural Gas,2014,1480,MW
+SK,Natural Gas,2015,1709,MW
+MB,Natural Gas,2005,368.1,MW
+MB,Natural Gas,2006,368.1,MW
+MB,Natural Gas,2007,368.1,MW
+MB,Natural Gas,2008,368.1,MW
+MB,Natural Gas,2009,368.1,MW
+MB,Natural Gas,2010,368.1,MW
+MB,Natural Gas,2011,368.1,MW
+MB,Natural Gas,2012,368.1,MW
+MB,Natural Gas,2013,368.1,MW
+MB,Natural Gas,2014,368.1,MW
+MB,Natural Gas,2015,368.1,MW
+ON,Natural Gas,2005,2813,MW
+ON,Natural Gas,2006,2907,MW
+ON,Natural Gas,2007,2905,MW
+ON,Natural Gas,2008,4344,MW
+ON,Natural Gas,2009,4010,MW
+ON,Natural Gas,2010,7122,MW
+ON,Natural Gas,2011,7106,MW
+ON,Natural Gas,2012,7499,MW
+ON,Natural Gas,2013,7537,MW
+ON,Natural Gas,2014,7038,MW
+ON,Natural Gas,2015,7650,MW
+QC,Natural Gas,2005,31.05,MW
+QC,Natural Gas,2006,591.05,MW
+QC,Natural Gas,2007,591.05,MW
+QC,Natural Gas,2008,591.05,MW
+QC,Natural Gas,2009,591.05,MW
+QC,Natural Gas,2010,591.05,MW
+QC,Natural Gas,2011,591.05,MW
+QC,Natural Gas,2012,591.05,MW
+QC,Natural Gas,2013,591.05,MW
+QC,Natural Gas,2014,591.05,MW
+QC,Natural Gas,2015,591.05,MW
+NB,Natural Gas,2005,340,MW
+NB,Natural Gas,2006,340,MW
+NB,Natural Gas,2007,340,MW
+NB,Natural Gas,2008,340,MW
+NB,Natural Gas,2009,350,MW
+NB,Natural Gas,2010,350,MW
+NB,Natural Gas,2011,350,MW
+NB,Natural Gas,2012,350,MW
+NB,Natural Gas,2013,350,MW
+NB,Natural Gas,2014,350,MW
+NB,Natural Gas,2015,350,MW
+NS,Natural Gas,2005,430,MW
+NS,Natural Gas,2006,430,MW
+NS,Natural Gas,2007,430,MW
+NS,Natural Gas,2008,430,MW
+NS,Natural Gas,2009,430,MW
+NS,Natural Gas,2010,430,MW
+NS,Natural Gas,2011,482,MW
+NS,Natural Gas,2012,482,MW
+NS,Natural Gas,2013,482.01,MW
+NS,Natural Gas,2014,482.01,MW
+NS,Natural Gas,2015,482.01,MW
+PE,Natural Gas,2005,0,MW
+PE,Natural Gas,2006,0,MW
+PE,Natural Gas,2007,0,MW
+PE,Natural Gas,2008,0,MW
+PE,Natural Gas,2009,0,MW
+PE,Natural Gas,2010,0,MW
+PE,Natural Gas,2011,0,MW
+PE,Natural Gas,2012,0,MW
+PE,Natural Gas,2013,0,MW
+PE,Natural Gas,2014,0,MW
+PE,Natural Gas,2015,0,MW
+NF,Natural Gas,2005,103,MW
+NF,Natural Gas,2006,103,MW
+NF,Natural Gas,2007,103,MW
+NF,Natural Gas,2008,103,MW
+NF,Natural Gas,2009,103,MW
+NF,Natural Gas,2010,103,MW
+NF,Natural Gas,2011,103,MW
+NF,Natural Gas,2012,103,MW
+NF,Natural Gas,2013,103,MW
+NF,Natural Gas,2014,103,MW
+NF,Natural Gas,2015,103,MW
+NWT,Natural Gas,2005,35,MW
+NWT,Natural Gas,2006,35,MW
+NWT,Natural Gas,2007,27.2,MW
+NWT,Natural Gas,2008,27.2,MW
+NWT,Natural Gas,2009,60.92,MW
+NWT,Natural Gas,2010,27.2,MW
+NWT,Natural Gas,2011,27.2,MW
+NWT,Natural Gas,2012,27.2,MW
+NWT,Natural Gas,2013,27.2,MW
+NWT,Natural Gas,2014,27.2,MW
+NWT,Natural Gas,2015,27.2,MW
+YT,Natural Gas,2005,0,MW
+YT,Natural Gas,2006,0,MW
+YT,Natural Gas,2007,0,MW
+YT,Natural Gas,2008,0,MW
+YT,Natural Gas,2009,0,MW
+YT,Natural Gas,2010,0,MW
+YT,Natural Gas,2011,0,MW
+YT,Natural Gas,2012,0,MW
+YT,Natural Gas,2013,0,MW
+YT,Natural Gas,2014,0,MW
+YT,Natural Gas,2015,4.4,MW
+NU,Natural Gas,2005,0,MW
+NU,Natural Gas,2006,0,MW
+NU,Natural Gas,2007,0,MW
+NU,Natural Gas,2008,0,MW
+NU,Natural Gas,2009,0,MW
+NU,Natural Gas,2010,0,MW
+NU,Natural Gas,2011,0,MW
+NU,Natural Gas,2012,0,MW
+NU,Natural Gas,2013,0,MW
+NU,Natural Gas,2014,0,MW
+NU,Natural Gas,2015,0,MW
+Canada,Natural Gas,2005,11263.8,MW
+Canada,Natural Gas,2006,11577.1,MW
+Canada,Natural Gas,2007,11668,MW
+Canada,Natural Gas,2008,13505.2,MW
+Canada,Natural Gas,2009,13623.12,MW
+Canada,Natural Gas,2010,17027.8,MW
+Canada,Natural Gas,2011,17097.95433,MW
+Canada,Natural Gas,2012,17922.105,MW
+Canada,Natural Gas,2013,18022.56,MW
+Canada,Natural Gas,2014,18024.99,MW
+Canada,Natural Gas,2015,19923.76,MW
+BC,Nuclear,2005,0,MW
+BC,Nuclear,2006,0,MW
+BC,Nuclear,2007,0,MW
+BC,Nuclear,2008,0,MW
+BC,Nuclear,2009,0,MW
+BC,Nuclear,2010,0,MW
+BC,Nuclear,2011,0,MW
+BC,Nuclear,2012,0,MW
+BC,Nuclear,2013,0,MW
+BC,Nuclear,2014,0,MW
+BC,Nuclear,2015,0,MW
+AB,Nuclear,2005,0,MW
+AB,Nuclear,2006,0,MW
+AB,Nuclear,2007,0,MW
+AB,Nuclear,2008,0,MW
+AB,Nuclear,2009,0,MW
+AB,Nuclear,2010,0,MW
+AB,Nuclear,2011,0,MW
+AB,Nuclear,2012,0,MW
+AB,Nuclear,2013,0,MW
+AB,Nuclear,2014,0,MW
+AB,Nuclear,2015,0,MW
+SK,Nuclear,2005,0,MW
+SK,Nuclear,2006,0,MW
+SK,Nuclear,2007,0,MW
+SK,Nuclear,2008,0,MW
+SK,Nuclear,2009,0,MW
+SK,Nuclear,2010,0,MW
+SK,Nuclear,2011,0,MW
+SK,Nuclear,2012,0,MW
+SK,Nuclear,2013,0,MW
+SK,Nuclear,2014,0,MW
+SK,Nuclear,2015,0,MW
+MB,Nuclear,2005,0,MW
+MB,Nuclear,2006,0,MW
+MB,Nuclear,2007,0,MW
+MB,Nuclear,2008,0,MW
+MB,Nuclear,2009,0,MW
+MB,Nuclear,2010,0,MW
+MB,Nuclear,2011,0,MW
+MB,Nuclear,2012,0,MW
+MB,Nuclear,2013,0,MW
+MB,Nuclear,2014,0,MW
+MB,Nuclear,2015,0,MW
+ON,Nuclear,2005,11450,MW
+ON,Nuclear,2006,11990,MW
+ON,Nuclear,2007,11990,MW
+ON,Nuclear,2008,11990,MW
+ON,Nuclear,2009,11990,MW
+ON,Nuclear,2010,11990,MW
+ON,Nuclear,2011,11990,MW
+ON,Nuclear,2012,11990,MW
+ON,Nuclear,2013,13640,MW
+ON,Nuclear,2014,13568,MW
+ON,Nuclear,2015,13568,MW
+QC,Nuclear,2005,675,MW
+QC,Nuclear,2006,675,MW
+QC,Nuclear,2007,675,MW
+QC,Nuclear,2008,675,MW
+QC,Nuclear,2009,675,MW
+QC,Nuclear,2010,675,MW
+QC,Nuclear,2011,675,MW
+QC,Nuclear,2012,0,MW
+QC,Nuclear,2013,0,MW
+QC,Nuclear,2014,0,MW
+QC,Nuclear,2015,0,MW
+NB,Nuclear,2005,680,MW
+NB,Nuclear,2006,680,MW
+NB,Nuclear,2007,680,MW
+NB,Nuclear,2008,680,MW
+NB,Nuclear,2009,680,MW
+NB,Nuclear,2010,680,MW
+NB,Nuclear,2011,680,MW
+NB,Nuclear,2012,680,MW
+NB,Nuclear,2013,705,MW
+NB,Nuclear,2014,705,MW
+NB,Nuclear,2015,705,MW
+NS,Nuclear,2005,0,MW
+NS,Nuclear,2006,0,MW
+NS,Nuclear,2007,0,MW
+NS,Nuclear,2008,0,MW
+NS,Nuclear,2009,0,MW
+NS,Nuclear,2010,0,MW
+NS,Nuclear,2011,0,MW
+NS,Nuclear,2012,0,MW
+NS,Nuclear,2013,0,MW
+NS,Nuclear,2014,0,MW
+NS,Nuclear,2015,0,MW
+PE,Nuclear,2005,0,MW
+PE,Nuclear,2006,0,MW
+PE,Nuclear,2007,0,MW
+PE,Nuclear,2008,0,MW
+PE,Nuclear,2009,0,MW
+PE,Nuclear,2010,0,MW
+PE,Nuclear,2011,0,MW
+PE,Nuclear,2012,0,MW
+PE,Nuclear,2013,0,MW
+PE,Nuclear,2014,0,MW
+PE,Nuclear,2015,0,MW
+NF,Nuclear,2005,0,MW
+NF,Nuclear,2006,0,MW
+NF,Nuclear,2007,0,MW
+NF,Nuclear,2008,0,MW
+NF,Nuclear,2009,0,MW
+NF,Nuclear,2010,0,MW
+NF,Nuclear,2011,0,MW
+NF,Nuclear,2012,0,MW
+NF,Nuclear,2013,0,MW
+NF,Nuclear,2014,0,MW
+NF,Nuclear,2015,0,MW
+NWT,Nuclear,2005,0,MW
+NWT,Nuclear,2006,0,MW
+NWT,Nuclear,2007,0,MW
+NWT,Nuclear,2008,0,MW
+NWT,Nuclear,2009,0,MW
+NWT,Nuclear,2010,0,MW
+NWT,Nuclear,2011,0,MW
+NWT,Nuclear,2012,0,MW
+NWT,Nuclear,2013,0,MW
+NWT,Nuclear,2014,0,MW
+NWT,Nuclear,2015,0,MW
+YT,Nuclear,2005,0,MW
+YT,Nuclear,2006,0,MW
+YT,Nuclear,2007,0,MW
+YT,Nuclear,2008,0,MW
+YT,Nuclear,2009,0,MW
+YT,Nuclear,2010,0,MW
+YT,Nuclear,2011,0,MW
+YT,Nuclear,2012,0,MW
+YT,Nuclear,2013,0,MW
+YT,Nuclear,2014,0,MW
+YT,Nuclear,2015,0,MW
+NU,Nuclear,2005,0,MW
+NU,Nuclear,2006,0,MW
+NU,Nuclear,2007,0,MW
+NU,Nuclear,2008,0,MW
+NU,Nuclear,2009,0,MW
+NU,Nuclear,2010,0,MW
+NU,Nuclear,2011,0,MW
+NU,Nuclear,2012,0,MW
+NU,Nuclear,2013,0,MW
+NU,Nuclear,2014,0,MW
+NU,Nuclear,2015,0,MW
+Canada,Nuclear,2005,12805,MW
+Canada,Nuclear,2006,13345,MW
+Canada,Nuclear,2007,13345,MW
+Canada,Nuclear,2008,13345,MW
+Canada,Nuclear,2009,13345,MW
+Canada,Nuclear,2010,13345,MW
+Canada,Nuclear,2011,13345,MW
+Canada,Nuclear,2012,12670,MW
+Canada,Nuclear,2013,14345,MW
+Canada,Nuclear,2014,14273,MW
+Canada,Nuclear,2015,14273,MW
+BC,Oil,2005,51.96,MW
+BC,Oil,2006,51.96,MW
+BC,Oil,2007,51.96,MW
+BC,Oil,2008,51.96,MW
+BC,Oil,2009,51.96,MW
+BC,Oil,2010,36.46,MW
+BC,Oil,2011,82.46,MW
+BC,Oil,2012,36.46,MW
+BC,Oil,2013,82.46,MW
+BC,Oil,2014,82.46,MW
+BC,Oil,2015,82.46,MW
+AB,Oil,2005,7.15,MW
+AB,Oil,2006,7.15,MW
+AB,Oil,2007,7.15,MW
+AB,Oil,2008,7.15,MW
+AB,Oil,2009,7.15,MW
+AB,Oil,2010,7.15,MW
+AB,Oil,2011,7.15,MW
+AB,Oil,2012,7.15,MW
+AB,Oil,2013,7.15,MW
+AB,Oil,2014,7.15,MW
+AB,Oil,2015,7.15,MW
+SK,Oil,2005,1.17,MW
+SK,Oil,2006,1.17,MW
+SK,Oil,2007,1.17,MW
+SK,Oil,2008,4,MW
+SK,Oil,2009,4,MW
+SK,Oil,2010,5,MW
+SK,Oil,2011,5,MW
+SK,Oil,2012,0,MW
+SK,Oil,2013,5,MW
+SK,Oil,2014,16,MW
+SK,Oil,2015,1.17,MW
+MB,Oil,2005,32.38,MW
+MB,Oil,2006,32,MW
+MB,Oil,2007,32,MW
+MB,Oil,2008,32,MW
+MB,Oil,2009,32,MW
+MB,Oil,2010,32,MW
+MB,Oil,2011,32,MW
+MB,Oil,2012,32,MW
+MB,Oil,2013,32,MW
+MB,Oil,2014,10,MW
+MB,Oil,2015,12.12,MW
+ON,Oil,2005,2130,MW
+ON,Oil,2006,2125.685,MW
+ON,Oil,2007,2125.85,MW
+ON,Oil,2008,2126.3,MW
+ON,Oil,2009,2126.87,MW
+ON,Oil,2010,2128.17,MW
+ON,Oil,2011,2156.305,MW
+ON,Oil,2012,2156.305,MW
+ON,Oil,2013,2156.305,MW
+ON,Oil,2014,2291.75,MW
+ON,Oil,2015,2291.75,MW
+QC,Oil,2005,1595,MW
+QC,Oil,2006,1544,MW
+QC,Oil,2007,1665,MW
+QC,Oil,2008,1633,MW
+QC,Oil,2009,1633,MW
+QC,Oil,2010,1502,MW
+QC,Oil,2011,1007,MW
+QC,Oil,2012,0,MW
+QC,Oil,2013,1007,MW
+QC,Oil,2014,538,MW
+QC,Oil,2015,253.12,MW
+NB,Oil,2005,1594,MW
+NB,Oil,2006,1594,MW
+NB,Oil,2007,1594,MW
+NB,Oil,2008,1594,MW
+NB,Oil,2009,1582,MW
+NB,Oil,2010,1582,MW
+NB,Oil,2011,1582,MW
+NB,Oil,2012,1582,MW
+NB,Oil,2013,1582,MW
+NB,Oil,2014,1582,MW
+NB,Oil,2015,1582,MW
+NS,Oil,2005,222.3,MW
+NS,Oil,2006,222.3,MW
+NS,Oil,2007,222.3,MW
+NS,Oil,2008,222.3,MW
+NS,Oil,2009,222,MW
+NS,Oil,2010,222.3,MW
+NS,Oil,2011,222.3,MW
+NS,Oil,2012,222.3,MW
+NS,Oil,2013,222.3,MW
+NS,Oil,2014,222.3,MW
+NS,Oil,2015,222.3,MW
+PE,Oil,2005,159,MW
+PE,Oil,2006,159,MW
+PE,Oil,2007,159,MW
+PE,Oil,2008,159,MW
+PE,Oil,2009,159,MW
+PE,Oil,2010,160,MW
+PE,Oil,2011,160,MW
+PE,Oil,2012,160,MW
+PE,Oil,2013,162,MW
+PE,Oil,2014,162,MW
+PE,Oil,2015,159,MW
+NF,Oil,2005,759,MW
+NF,Oil,2006,759,MW
+NF,Oil,2007,759,MW
+NF,Oil,2008,759,MW
+NF,Oil,2009,789,MW
+NF,Oil,2010,789,MW
+NF,Oil,2011,786,MW
+NF,Oil,2012,786,MW
+NF,Oil,2013,760,MW
+NF,Oil,2014,868,MW
+NF,Oil,2015,868,MW
+NWT,Oil,2005,114,MW
+NWT,Oil,2006,74.923,MW
+NWT,Oil,2007,79.98,MW
+NWT,Oil,2008,84.398,MW
+NWT,Oil,2009,99.798,MW
+NWT,Oil,2010,99.798,MW
+NWT,Oil,2011,99.74,MW
+NWT,Oil,2012,99.74,MW
+NWT,Oil,2013,103.56,MW
+NWT,Oil,2014,77.76,MW
+NWT,Oil,2015,94.07,MW
+YT,Oil,2005,33.34,MW
+YT,Oil,2006,33.34,MW
+YT,Oil,2007,33.34,MW
+YT,Oil,2008,33.34,MW
+YT,Oil,2009,33.34,MW
+YT,Oil,2010,33.57,MW
+YT,Oil,2011,33.57,MW
+YT,Oil,2012,33.57,MW
+YT,Oil,2013,33.57,MW
+YT,Oil,2014,33.57,MW
+YT,Oil,2015,24.57,MW
+NU,Oil,2005,54.28,MW
+NU,Oil,2006,54.28,MW
+NU,Oil,2007,54.28,MW
+NU,Oil,2008,54.28,MW
+NU,Oil,2009,54.28,MW
+NU,Oil,2010,54.28,MW
+NU,Oil,2011,54.28,MW
+NU,Oil,2012,54.28,MW
+NU,Oil,2013,54.28,MW
+NU,Oil,2014,54.28,MW
+NU,Oil,2015,54.28,MW
+Canada,Oil,2005,6753.58,MW
+Canada,Oil,2006,6658.808,MW
+Canada,Oil,2007,6785.03,MW
+Canada,Oil,2008,6760.728,MW
+Canada,Oil,2009,6794.398,MW
+Canada,Oil,2010,6651.728,MW
+Canada,Oil,2011,6227.805,MW
+Canada,Oil,2012,5169.805,MW
+Canada,Oil,2013,6207.625,MW
+Canada,Oil,2014,5945.27,MW
+Canada,Oil,2015,5651.99,MW
+BC,Solar,2005,0,MW
+BC,Solar,2006,0,MW
+BC,Solar,2007,0,MW
+BC,Solar,2008,0,MW
+BC,Solar,2009,0,MW
+BC,Solar,2010,0,MW
+BC,Solar,2011,0,MW
+BC,Solar,2012,0,MW
+BC,Solar,2013,0,MW
+BC,Solar,2014,2.8,MW
+BC,Solar,2015,2.8,MW
+AB,Solar,2005,0,MW
+AB,Solar,2006,0,MW
+AB,Solar,2007,0,MW
+AB,Solar,2008,0,MW
+AB,Solar,2009,0,MW
+AB,Solar,2010,0,MW
+AB,Solar,2011,0,MW
+AB,Solar,2012,0,MW
+AB,Solar,2013,0,MW
+AB,Solar,2014,6.4,MW
+AB,Solar,2015,6.4,MW
+SK,Solar,2005,0,MW
+SK,Solar,2006,0,MW
+SK,Solar,2007,0,MW
+SK,Solar,2008,0,MW
+SK,Solar,2009,0,MW
+SK,Solar,2010,0,MW
+SK,Solar,2011,0,MW
+SK,Solar,2012,0,MW
+SK,Solar,2013,0,MW
+SK,Solar,2014,3.5,MW
+SK,Solar,2015,3.5,MW
+MB,Solar,2005,0,MW
+MB,Solar,2006,0,MW
+MB,Solar,2007,0,MW
+MB,Solar,2008,0,MW
+MB,Solar,2009,0,MW
+MB,Solar,2010,0,MW
+MB,Solar,2011,0,MW
+MB,Solar,2012,0,MW
+MB,Solar,2013,0,MW
+MB,Solar,2014,0.4,MW
+MB,Solar,2015,0.4,MW
+ON,Solar,2005,16.75,MW
+ON,Solar,2006,20.48,MW
+ON,Solar,2007,25.77,MW
+ON,Solar,2008,32.72,MW
+ON,Solar,2009,94.57,MW
+ON,Solar,2010,281.13,MW
+ON,Solar,2011,419.4,MW
+ON,Solar,2012,645.3,MW
+ON,Solar,2013,1018.7,MW
+ON,Solar,2014,1509.4,MW
+ON,Solar,2015,2119,MW
+QC,Solar,2005,0,MW
+QC,Solar,2006,0,MW
+QC,Solar,2007,0,MW
+QC,Solar,2008,0,MW
+QC,Solar,2009,0,MW
+QC,Solar,2010,0,MW
+QC,Solar,2011,0,MW
+QC,Solar,2012,0,MW
+QC,Solar,2013,0,MW
+QC,Solar,2014,0.4,MW
+QC,Solar,2015,0.4,MW
+NB,Solar,2005,0,MW
+NB,Solar,2006,0,MW
+NB,Solar,2007,0,MW
+NB,Solar,2008,0,MW
+NB,Solar,2009,0,MW
+NB,Solar,2010,0,MW
+NB,Solar,2011,0,MW
+NB,Solar,2012,0,MW
+NB,Solar,2013,0,MW
+NB,Solar,2014,0.2,MW
+NB,Solar,2015,0.2,MW
+NS,Solar,2005,0,MW
+NS,Solar,2006,0,MW
+NS,Solar,2007,0,MW
+NS,Solar,2008,0,MW
+NS,Solar,2009,0,MW
+NS,Solar,2010,0,MW
+NS,Solar,2011,0,MW
+NS,Solar,2012,0,MW
+NS,Solar,2013,0,MW
+NS,Solar,2014,0.6,MW
+NS,Solar,2015,0.6,MW
+PE,Solar,2005,0,MW
+PE,Solar,2006,0,MW
+PE,Solar,2007,0,MW
+PE,Solar,2008,0,MW
+PE,Solar,2009,0,MW
+PE,Solar,2010,0,MW
+PE,Solar,2011,0,MW
+PE,Solar,2012,0,MW
+PE,Solar,2013,0,MW
+PE,Solar,2014,0.4,MW
+PE,Solar,2015,0.4,MW
+NF,Solar,2005,0,MW
+NF,Solar,2006,0,MW
+NF,Solar,2007,0,MW
+NF,Solar,2008,0,MW
+NF,Solar,2009,0,MW
+NF,Solar,2010,0,MW
+NF,Solar,2011,0,MW
+NF,Solar,2012,0,MW
+NF,Solar,2013,0,MW
+NF,Solar,2014,0.035,MW
+NF,Solar,2015,0.035,MW
+NWT,Solar,2005,0,MW
+NWT,Solar,2006,0,MW
+NWT,Solar,2007,0,MW
+NWT,Solar,2008,0,MW
+NWT,Solar,2009,0,MW
+NWT,Solar,2010,0,MW
+NWT,Solar,2011,0,MW
+NWT,Solar,2012,0,MW
+NWT,Solar,2013,0,MW
+NWT,Solar,2014,0.3,MW
+NWT,Solar,2015,0.3,MW
+YT,Solar,2005,0,MW
+YT,Solar,2006,0,MW
+YT,Solar,2007,0,MW
+YT,Solar,2008,0,MW
+YT,Solar,2009,0,MW
+YT,Solar,2010,0,MW
+YT,Solar,2011,0,MW
+YT,Solar,2012,0,MW
+YT,Solar,2013,0,MW
+YT,Solar,2014,0.033,MW
+YT,Solar,2015,0.033,MW
+NU,Solar,2005,0,MW
+NU,Solar,2006,0,MW
+NU,Solar,2007,0,MW
+NU,Solar,2008,0,MW
+NU,Solar,2009,0,MW
+NU,Solar,2010,0,MW
+NU,Solar,2011,0,MW
+NU,Solar,2012,0,MW
+NU,Solar,2013,0,MW
+NU,Solar,2014,0.035,MW
+NU,Solar,2015,0.035,MW
+Canada,Solar,2005,16.75,MW
+Canada,Solar,2006,20.48,MW
+Canada,Solar,2007,25.77,MW
+Canada,Solar,2008,32.72,MW
+Canada,Solar,2009,94.57,MW
+Canada,Solar,2010,281.13,MW
+Canada,Solar,2011,419.4,MW
+Canada,Solar,2012,645.3,MW
+Canada,Solar,2013,1018.7,MW
+Canada,Solar,2014,1524.503,MW
+Canada,Solar,2015,2134.103,MW
+BC,All sources,2005,15030.37,MW
+BC,All sources,2006,14901.577,MW
+BC,All sources,2007,14948.778,MW
+BC,All sources,2008,15020.928,MW
+BC,All sources,2009,15248.128,MW
+BC,All sources,2010,15624.151,MW
+BC,All sources,2011,16286.612,MW
+BC,All sources,2012,16240.412,MW
+BC,All sources,2013,16467.902,MW
+BC,All sources,2014,17090.602,MW
+BC,All sources,2015,17912.85,MW
+AB,All sources,2005,12007.95,MW
+AB,All sources,2006,11768.9,MW
+AB,All sources,2007,12062.9,MW
+AB,All sources,2008,12461.5,MW
+AB,All sources,2009,12905.8,MW
+AB,All sources,2010,12897.7,MW
+AB,All sources,2011,12993.10133,MW
+AB,All sources,2012,13776.02932,MW
+AB,All sources,2013,14475.296,MW
+AB,All sources,2014,15198.48,MW
+AB,All sources,2015,16279.35,MW
+SK,All sources,2005,3742.8,MW
+SK,All sources,2006,3878.8,MW
+SK,All sources,2007,3878.8,MW
+SK,All sources,2008,3903.63,MW
+SK,All sources,2009,3996.63,MW
+SK,All sources,2010,4249.13,MW
+SK,All sources,2011,4274.63,MW
+SK,All sources,2012,4269.68,MW
+SK,All sources,2013,4148.68,MW
+SK,All sources,2014,4212.78,MW
+SK,All sources,2015,4476.65,MW
+MB,All sources,2005,5577.91,MW
+MB,All sources,2006,5661.48,MW
+MB,All sources,2007,5661.48,MW
+MB,All sources,2008,5661.48,MW
+MB,All sources,2009,5661.48,MW
+MB,All sources,2010,5661.48,MW
+MB,All sources,2011,5799.48,MW
+MB,All sources,2012,5815.98,MW
+MB,All sources,2013,6016.98,MW
+MB,All sources,2014,5995.38,MW
+MB,All sources,2015,5997.5,MW
+ON,All sources,2005,31575.21,MW
+ON,All sources,2006,32372.245,MW
+ON,All sources,2007,32462.7,MW
+ON,All sources,2008,33916.1,MW
+ON,All sources,2009,34097.52,MW
+ON,All sources,2010,36125.38,MW
+ON,All sources,2011,36647.785,MW
+ON,All sources,2012,36370.685,MW
+ON,All sources,2013,37906.085,MW
+ON,All sources,2014,37614.15,MW
+ON,All sources,2015,39344.75,MW
+QC,All sources,2005,39259.687,MW
+QC,All sources,2006,40090.759,MW
+QC,All sources,2007,41065.827,MW
+QC,All sources,2008,41920.475,MW
+QC,All sources,2009,42202.76,MW
+QC,All sources,2010,42088.17,MW
+QC,All sources,2011,41619.443,MW
+QC,All sources,2012,41401.49,MW
+QC,All sources,2013,42675.043,MW
+QC,All sources,2014,44268.347,MW
+QC,All sources,2015,44563.38,MW
+NB,All sources,2005,4231.25,MW
+NB,All sources,2006,4231.25,MW
+NB,All sources,2007,4231.25,MW
+NB,All sources,2008,4327.25,MW
+NB,All sources,2009,4424.25,MW
+NB,All sources,2010,4373.25,MW
+NB,All sources,2011,4480.1,MW
+NB,All sources,2012,4480.1,MW
+NB,All sources,2013,4505.1,MW
+NB,All sources,2014,4505.3,MW
+NB,All sources,2015,4505.3,MW
+NS,All sources,2005,2447.37,MW
+NS,All sources,2006,2447.27,MW
+NS,All sources,2007,2452.47,MW
+NS,All sources,2008,2453.37,MW
+NS,All sources,2009,2453.07,MW
+NS,All sources,2010,2502.37,MW
+NS,All sources,2011,2650.6,MW
+NS,All sources,2012,2754.2,MW
+NS,All sources,2013,2760.18,MW
+NS,All sources,2014,2809.22,MW
+NS,All sources,2015,2925.02,MW
+PE,All sources,2005,173,MW
+PE,All sources,2006,173,MW
+PE,All sources,2007,232,MW
+PE,All sources,2008,232,MW
+PE,All sources,2009,311,MW
+PE,All sources,2010,324,MW
+PE,All sources,2011,324,MW
+PE,All sources,2012,324,MW
+PE,All sources,2013,336,MW
+PE,All sources,2014,366.4,MW
+PE,All sources,2015,363.4,MW
+NF,All sources,2005,7642.06,MW
+NF,All sources,2006,7637.45,MW
+NF,All sources,2007,7638.8,MW
+NF,All sources,2008,7638.8,MW
+NF,All sources,2009,7727.05,MW
+NF,All sources,2010,7727.05,MW
+NF,All sources,2011,7731.7,MW
+NF,All sources,2012,7726.06,MW
+NF,All sources,2013,7705.7,MW
+NF,All sources,2014,7791.455,MW
+NF,All sources,2015,7791.455,MW
+NWT,All sources,2005,214,MW
+NWT,All sources,2006,151.623,MW
+NWT,All sources,2007,150.18,MW
+NWT,All sources,2008,167.298,MW
+NWT,All sources,2009,216.418,MW
+NWT,All sources,2010,182.698,MW
+NWT,All sources,2011,182.64,MW
+NWT,All sources,2012,191.84,MW
+NWT,All sources,2013,195.66,MW
+NWT,All sources,2014,170.16,MW
+NWT,All sources,2015,186.47,MW
+YT,All sources,2005,110.04,MW
+YT,All sources,2006,110.84,MW
+YT,All sources,2007,112.04,MW
+YT,All sources,2008,112.04,MW
+YT,All sources,2009,112.04,MW
+YT,All sources,2010,112.27,MW
+YT,All sources,2011,128.87,MW
+YT,All sources,2012,128.87,MW
+YT,All sources,2013,128.87,MW
+YT,All sources,2014,128.903,MW
+YT,All sources,2015,124.303,MW
+NU,All sources,2005,54.28,MW
+NU,All sources,2006,54.28,MW
+NU,All sources,2007,54.28,MW
+NU,All sources,2008,54.28,MW
+NU,All sources,2009,54.28,MW
+NU,All sources,2010,54.28,MW
+NU,All sources,2011,54.28,MW
+NU,All sources,2012,54.28,MW
+NU,All sources,2013,54.28,MW
+NU,All sources,2014,54.315,MW
+NU,All sources,2015,54.315,MW
+Canada,All sources,2005,122065.927,MW
+Canada,All sources,2006,123479.474,MW
+Canada,All sources,2007,124951.505,MW
+Canada,All sources,2008,127869.151,MW
+Canada,All sources,2009,129410.426,MW
+Canada,All sources,2010,131921.929,MW
+Canada,All sources,2011,133173.2413,MW
+Canada,All sources,2012,133533.6263,MW
+Canada,All sources,2013,137375.776,MW
+Canada,All sources,2014,140205.492,MW
+Canada,All sources,2015,144524.743,MW
+BC,Non-hydro renewables,2005,810.92,MW
+BC,Non-hydro renewables,2006,810.92,MW
+BC,Non-hydro renewables,2007,810.92,MW
+BC,Non-hydro renewables,2008,810.92,MW
+BC,Non-hydro renewables,2009,912.92,MW
+BC,Non-hydro renewables,2010,960.92,MW
+BC,Non-hydro renewables,2011,1106.19,MW
+BC,Non-hydro renewables,2012,1106.19,MW
+BC,Non-hydro renewables,2013,1273.59,MW
+BC,Non-hydro renewables,2014,1376.39,MW
+BC,Non-hydro renewables,2015,1376.39,MW
+AB,Non-hydro renewables,2005,522,MW
+AB,Non-hydro renewables,2006,699.3,MW
+AB,Non-hydro renewables,2007,838.3,MW
+AB,Non-hydro renewables,2008,838.3,MW
+AB,Non-hydro renewables,2009,914.4,MW
+AB,Non-hydro renewables,2010,1063.4,MW
+AB,Non-hydro renewables,2011,1223.697,MW
+AB,Non-hydro renewables,2012,1501.797,MW
+AB,Non-hydro renewables,2013,1504.646,MW
+AB,Non-hydro renewables,2014,1878.7,MW
+AB,Non-hydro renewables,2015,1897.4,MW
+SK,Non-hydro renewables,2005,15.8,MW
+SK,Non-hydro renewables,2006,171.18,MW
+SK,Non-hydro renewables,2007,171.18,MW
+SK,Non-hydro renewables,2008,171.18,MW
+SK,Non-hydro renewables,2009,171.18,MW
+SK,Non-hydro renewables,2010,171.18,MW
+SK,Non-hydro renewables,2011,196.68,MW
+SK,Non-hydro renewables,2012,196.68,MW
+SK,Non-hydro renewables,2013,196.68,MW
+SK,Non-hydro renewables,2014,201.78,MW
+SK,Non-hydro renewables,2015,226.1,MW
+MB,Non-hydro renewables,2005,42,MW
+MB,Non-hydro renewables,2006,125.95,MW
+MB,Non-hydro renewables,2007,125.95,MW
+MB,Non-hydro renewables,2008,125.95,MW
+MB,Non-hydro renewables,2009,125.95,MW
+MB,Non-hydro renewables,2010,125.95,MW
+MB,Non-hydro renewables,2011,263.95,MW
+MB,Non-hydro renewables,2012,280.45,MW
+MB,Non-hydro renewables,2013,280.45,MW
+MB,Non-hydro renewables,2014,280.85,MW
+MB,Non-hydro renewables,2015,280.85,MW
+ON,Non-hydro renewables,2005,240.45,MW
+ON,Non-hydro renewables,2006,610.48,MW
+ON,Non-hydro renewables,2007,692.77,MW
+ON,Non-hydro renewables,2008,962.72,MW
+ON,Non-hydro renewables,2009,1469.57,MW
+ON,Non-hydro renewables,2010,1935.13,MW
+ON,Non-hydro renewables,2011,2596.4,MW
+ON,Non-hydro renewables,2012,2905.3,MW
+ON,Non-hydro renewables,2013,3716.7,MW
+ON,Non-hydro renewables,2014,5591.4,MW
+ON,Non-hydro renewables,2015,7067,MW
+QC,Non-hydro renewables,2005,485.16,MW
+QC,Non-hydro renewables,2006,595.16,MW
+QC,Non-hydro renewables,2007,695.16,MW
+QC,Non-hydro renewables,2008,756.66,MW
+QC,Non-hydro renewables,2009,889.66,MW
+QC,Non-hydro renewables,2010,893.66,MW
+QC,Non-hydro renewables,2011,1162.64,MW
+QC,Non-hydro renewables,2012,1593.64,MW
+QC,Non-hydro renewables,2013,2643.64,MW
+QC,Non-hydro renewables,2014,3105.04,MW
+QC,Non-hydro renewables,2015,3507.24,MW
+NB,Non-hydro renewables,2005,127.3,MW
+NB,Non-hydro renewables,2006,127.3,MW
+NB,Non-hydro renewables,2007,127.3,MW
+NB,Non-hydro renewables,2008,223.3,MW
+NB,Non-hydro renewables,2009,322.3,MW
+NB,Non-hydro renewables,2010,322.3,MW
+NB,Non-hydro renewables,2011,421.3,MW
+NB,Non-hydro renewables,2012,421.3,MW
+NB,Non-hydro renewables,2013,421.3,MW
+NB,Non-hydro renewables,2014,421.5,MW
+NB,Non-hydro renewables,2015,421.5,MW
+NS,Non-hydro renewables,2005,103.32,MW
+NS,Non-hydro renewables,2006,103.22,MW
+NS,Non-hydro renewables,2007,108.42,MW
+NS,Non-hydro renewables,2008,109.32,MW
+NS,Non-hydro renewables,2009,109.32,MW
+NS,Non-hydro renewables,2010,188.32,MW
+NS,Non-hydro renewables,2011,282.72,MW
+NS,Non-hydro renewables,2012,386.32,MW
+NS,Non-hydro renewables,2013,392.29,MW
+NS,Non-hydro renewables,2014,441.33,MW
+NS,Non-hydro renewables,2015,557.13,MW
+PE,Non-hydro renewables,2005,14,MW
+PE,Non-hydro renewables,2006,14,MW
+PE,Non-hydro renewables,2007,73,MW
+PE,Non-hydro renewables,2008,73,MW
+PE,Non-hydro renewables,2009,152,MW
+PE,Non-hydro renewables,2010,164,MW
+PE,Non-hydro renewables,2011,164,MW
+PE,Non-hydro renewables,2012,164,MW
+PE,Non-hydro renewables,2013,174,MW
+PE,Non-hydro renewables,2014,204.4,MW
+PE,Non-hydro renewables,2015,204.4,MW
+NF,Non-hydro renewables,2005,0,MW
+NF,Non-hydro renewables,2006,0,MW
+NF,Non-hydro renewables,2007,0,MW
+NF,Non-hydro renewables,2008,0,MW
+NF,Non-hydro renewables,2009,54,MW
+NF,Non-hydro renewables,2010,54,MW
+NF,Non-hydro renewables,2011,54,MW
+NF,Non-hydro renewables,2012,54,MW
+NF,Non-hydro renewables,2013,54,MW
+NF,Non-hydro renewables,2014,54.035,MW
+NF,Non-hydro renewables,2015,54.035,MW
+NWT,Non-hydro renewables,2005,0,MW
+NWT,Non-hydro renewables,2006,0,MW
+NWT,Non-hydro renewables,2007,0,MW
+NWT,Non-hydro renewables,2008,0,MW
+NWT,Non-hydro renewables,2009,0,MW
+NWT,Non-hydro renewables,2010,0,MW
+NWT,Non-hydro renewables,2011,0,MW
+NWT,Non-hydro renewables,2012,9.2,MW
+NWT,Non-hydro renewables,2013,9.2,MW
+NWT,Non-hydro renewables,2014,9.5,MW
+NWT,Non-hydro renewables,2015,9.5,MW
+YT,Non-hydro renewables,2005,0,MW
+YT,Non-hydro renewables,2006,0.8,MW
+YT,Non-hydro renewables,2007,0.8,MW
+YT,Non-hydro renewables,2008,0.8,MW
+YT,Non-hydro renewables,2009,0.8,MW
+YT,Non-hydro renewables,2010,0.8,MW
+YT,Non-hydro renewables,2011,0.8,MW
+YT,Non-hydro renewables,2012,0.8,MW
+YT,Non-hydro renewables,2013,0.8,MW
+YT,Non-hydro renewables,2014,0.833,MW
+YT,Non-hydro renewables,2015,0.833,MW
+NU,Non-hydro renewables,2005,0,MW
+NU,Non-hydro renewables,2006,0,MW
+NU,Non-hydro renewables,2007,0,MW
+NU,Non-hydro renewables,2008,0,MW
+NU,Non-hydro renewables,2009,0,MW
+NU,Non-hydro renewables,2010,0,MW
+NU,Non-hydro renewables,2011,0,MW
+NU,Non-hydro renewables,2012,0,MW
+NU,Non-hydro renewables,2013,0,MW
+NU,Non-hydro renewables,2014,0.035,MW
+NU,Non-hydro renewables,2015,0.035,MW
+Canada,Non-hydro renewables,2005,2360.95,MW
+Canada,Non-hydro renewables,2006,3258.31,MW
+Canada,Non-hydro renewables,2007,3643.8,MW
+Canada,Non-hydro renewables,2008,4072.15,MW
+Canada,Non-hydro renewables,2009,5122.1,MW
+Canada,Non-hydro renewables,2010,5879.66,MW
+Canada,Non-hydro renewables,2011,7472.377,MW
+Canada,Non-hydro renewables,2012,8619.677,MW
+Canada,Non-hydro renewables,2013,10667.296,MW
+Canada,Non-hydro renewables,2014,13565.793,MW
+Canada,Non-hydro renewables,2015,15602.413,MW
+BC,Renewables,2005,13658.41,MW
+BC,Renewables,2006,13424.617,MW
+BC,Renewables,2007,13471.818,MW
+BC,Renewables,2008,13543.968,MW
+BC,Renewables,2009,13771.168,MW
+BC,Renewables,2010,14162.691,MW
+BC,Renewables,2011,14778.952,MW
+BC,Renewables,2012,14778.952,MW
+BC,Renewables,2013,14960.442,MW
+BC,Renewables,2014,15583.142,MW
+BC,Renewables,2015,16405.39,MW
+AB,Renewables,2005,1391,MW
+AB,Renewables,2006,1573.65,MW
+AB,Renewables,2007,1712.65,MW
+AB,Renewables,2008,1712.65,MW
+AB,Renewables,2009,1788.75,MW
+AB,Renewables,2010,1937.75,MW
+AB,Renewables,2011,2102.697,MW
+AB,Renewables,2012,2395.797,MW
+AB,Renewables,2013,2398.646,MW
+AB,Renewables,2014,2772.7,MW
+AB,Renewables,2015,2791.4,MW
+SK,Renewables,2005,869.8,MW
+SK,Renewables,2006,1024.18,MW
+SK,Renewables,2007,1024.18,MW
+SK,Renewables,2008,1024.18,MW
+SK,Renewables,2009,1024.18,MW
+SK,Renewables,2010,1024.18,MW
+SK,Renewables,2011,1049.68,MW
+SK,Renewables,2012,1049.68,MW
+SK,Renewables,2013,1059.68,MW
+SK,Renewables,2014,1065.78,MW
+SK,Renewables,2015,1115.1,MW
+MB,Renewables,2005,5079.79,MW
+MB,Renewables,2006,5163.74,MW
+MB,Renewables,2007,5163.74,MW
+MB,Renewables,2008,5163.74,MW
+MB,Renewables,2009,5163.74,MW
+MB,Renewables,2010,5163.74,MW
+MB,Renewables,2011,5301.74,MW
+MB,Renewables,2012,5318.24,MW
+MB,Renewables,2013,5519.24,MW
+MB,Renewables,2014,5519.64,MW
+MB,Renewables,2015,5519.64,MW
+ON,Renewables,2005,8745.21,MW
+ON,Renewables,2006,9020.56,MW
+ON,Renewables,2007,9102.85,MW
+ON,Renewables,2008,9378.8,MW
+ON,Renewables,2009,9893.65,MW
+ON,Renewables,2010,10398.21,MW
+ON,Renewables,2011,11120.48,MW
+ON,Renewables,2012,11429.38,MW
+ON,Renewables,2013,12281.78,MW
+ON,Renewables,2014,14563.4,MW
+ON,Renewables,2015,15835,MW
+QC,Renewables,2005,36958.637,MW
+QC,Renewables,2006,37280.709,MW
+QC,Renewables,2007,38134.777,MW
+QC,Renewables,2008,39021.425,MW
+QC,Renewables,2009,39303.71,MW
+QC,Renewables,2010,39320.12,MW
+QC,Renewables,2011,39346.393,MW
+QC,Renewables,2012,40810.44,MW
+QC,Renewables,2013,41076.993,MW
+QC,Renewables,2014,43139.297,MW
+QC,Renewables,2015,43719.21,MW
+NB,Renewables,2005,1076.25,MW
+NB,Renewables,2006,1076.25,MW
+NB,Renewables,2007,1076.25,MW
+NB,Renewables,2008,1172.25,MW
+NB,Renewables,2009,1271.25,MW
+NB,Renewables,2010,1271.25,MW
+NB,Renewables,2011,1378.1,MW
+NB,Renewables,2012,1378.1,MW
+NB,Renewables,2013,1378.1,MW
+NB,Renewables,2014,1378.3,MW
+NB,Renewables,2015,1378.3,MW
+NS,Renewables,2005,507.07,MW
+NS,Renewables,2006,506.97,MW
+NS,Renewables,2007,512.17,MW
+NS,Renewables,2008,513.07,MW
+NS,Renewables,2009,513.07,MW
+NS,Renewables,2010,562.07,MW
+NS,Renewables,2011,658.3,MW
+NS,Renewables,2012,761.9,MW
+NS,Renewables,2013,767.87,MW
+NS,Renewables,2014,816.91,MW
+NS,Renewables,2015,932.71,MW
+PE,Renewables,2005,14,MW
+PE,Renewables,2006,14,MW
+PE,Renewables,2007,73,MW
+PE,Renewables,2008,73,MW
+PE,Renewables,2009,152,MW
+PE,Renewables,2010,164,MW
+PE,Renewables,2011,164,MW
+PE,Renewables,2012,164,MW
+PE,Renewables,2013,174,MW
+PE,Renewables,2014,204.4,MW
+PE,Renewables,2015,204.4,MW
+NF,Renewables,2005,6780.06,MW
+NF,Renewables,2006,6775.45,MW
+NF,Renewables,2007,6776.8,MW
+NF,Renewables,2008,6776.8,MW
+NF,Renewables,2009,6835.05,MW
+NF,Renewables,2010,6835.05,MW
+NF,Renewables,2011,6842.7,MW
+NF,Renewables,2012,6837.06,MW
+NF,Renewables,2013,6842.7,MW
+NF,Renewables,2014,6820.455,MW
+NF,Renewables,2015,6820.455,MW
+NWT,Renewables,2005,65,MW
+NWT,Renewables,2006,41.7,MW
+NWT,Renewables,2007,43,MW
+NWT,Renewables,2008,55.7,MW
+NWT,Renewables,2009,55.7,MW
+NWT,Renewables,2010,55.7,MW
+NWT,Renewables,2011,55.7,MW
+NWT,Renewables,2012,64.9,MW
+NWT,Renewables,2013,64.9,MW
+NWT,Renewables,2014,65.2,MW
+NWT,Renewables,2015,65.2,MW
+YT,Renewables,2005,76.7,MW
+YT,Renewables,2006,77.5,MW
+YT,Renewables,2007,78.7,MW
+YT,Renewables,2008,78.7,MW
+YT,Renewables,2009,78.7,MW
+YT,Renewables,2010,78.7,MW
+YT,Renewables,2011,95.3,MW
+YT,Renewables,2012,95.3,MW
+YT,Renewables,2013,95.3,MW
+YT,Renewables,2014,95.333,MW
+YT,Renewables,2015,95.333,MW
+NU,Renewables,2005,0,MW
+NU,Renewables,2006,0,MW
+NU,Renewables,2007,0,MW
+NU,Renewables,2008,0,MW
+NU,Renewables,2009,0,MW
+NU,Renewables,2010,0,MW
+NU,Renewables,2011,0,MW
+NU,Renewables,2012,0,MW
+NU,Renewables,2013,0,MW
+NU,Renewables,2014,0.035,MW
+NU,Renewables,2015,0.035,MW
+Canada,Renewables,2005,75221.927,MW
+Canada,Renewables,2006,75979.326,MW
+Canada,Renewables,2007,77169.935,MW
+Canada,Renewables,2008,78514.283,MW
+Canada,Renewables,2009,79850.968,MW
+Canada,Renewables,2010,80973.461,MW
+Canada,Renewables,2011,82894.042,MW
+Canada,Renewables,2012,85083.749,MW
+Canada,Renewables,2013,86619.651,MW
+Canada,Renewables,2014,92024.592,MW
+Canada,Renewables,2015,94882.173,MW
+BC,Thermal,2005,2182.88,MW
+BC,Thermal,2006,2287.88,MW
+BC,Thermal,2007,2287.88,MW
+BC,Thermal,2008,2287.88,MW
+BC,Thermal,2009,2287.88,MW
+BC,Thermal,2010,2320.38,MW
+BC,Thermal,2011,2367.85,MW
+BC,Thermal,2012,2321.65,MW
+BC,Thermal,2013,2393.05,MW
+BC,Thermal,2014,2393.05,MW
+BC,Thermal,2015,2393.05,MW
+AB,Thermal,2005,10887.95,MW
+AB,Thermal,2006,10508.35,MW
+AB,Thermal,2007,10663.35,MW
+AB,Thermal,2008,11061.95,MW
+AB,Thermal,2009,11440.25,MW
+AB,Thermal,2010,11300.15,MW
+AB,Thermal,2011,11249.10133,MW
+AB,Thermal,2012,11794.02932,MW
+AB,Thermal,2013,12493.296,MW
+AB,Thermal,2014,12864.08,MW
+AB,Thermal,2015,13915.95,MW
+SK,Thermal,2005,2873,MW
+SK,Thermal,2006,2854.62,MW
+SK,Thermal,2007,2854.62,MW
+SK,Thermal,2008,2879.45,MW
+SK,Thermal,2009,2972.45,MW
+SK,Thermal,2010,3224.95,MW
+SK,Thermal,2011,3224.95,MW
+SK,Thermal,2012,3220,MW
+SK,Thermal,2013,3089,MW
+SK,Thermal,2014,3148.6,MW
+SK,Thermal,2015,3363.15,MW
+MB,Thermal,2005,520.12,MW
+MB,Thermal,2006,519.74,MW
+MB,Thermal,2007,519.74,MW
+MB,Thermal,2008,519.74,MW
+MB,Thermal,2009,519.74,MW
+MB,Thermal,2010,519.74,MW
+MB,Thermal,2011,519.74,MW
+MB,Thermal,2012,519.74,MW
+MB,Thermal,2013,519.74,MW
+MB,Thermal,2014,497.74,MW
+MB,Thermal,2015,499.86,MW
+ON,Thermal,2005,23039,MW
+ON,Thermal,2006,23527.685,MW
+ON,Thermal,2007,23535.85,MW
+ON,Thermal,2008,24685.3,MW
+ON,Thermal,2009,24410.87,MW
+ON,Thermal,2010,25934.17,MW
+ON,Thermal,2011,25734.305,MW
+ON,Thermal,2012,25148.305,MW
+ON,Thermal,2013,25831.305,MW
+ON,Thermal,2014,23642.75,MW
+ON,Thermal,2015,24083.75,MW
+QC,Thermal,2005,2579.21,MW
+QC,Thermal,2006,3088.21,MW
+QC,Thermal,2007,3209.21,MW
+QC,Thermal,2008,3128.71,MW
+QC,Thermal,2009,3128.71,MW
+QC,Thermal,2010,2997.71,MW
+QC,Thermal,2011,2512.69,MW
+QC,Thermal,2012,830.69,MW
+QC,Thermal,2013,1837.69,MW
+QC,Thermal,2014,1368.69,MW
+QC,Thermal,2015,1089.01,MW
+NB,Thermal,2005,3282.3,MW
+NB,Thermal,2006,3282.3,MW
+NB,Thermal,2007,3282.3,MW
+NB,Thermal,2008,3282.3,MW
+NB,Thermal,2009,3280.3,MW
+NB,Thermal,2010,3229.3,MW
+NB,Thermal,2011,3229.3,MW
+NB,Thermal,2012,3229.3,MW
+NB,Thermal,2013,3254.3,MW
+NB,Thermal,2014,3254.3,MW
+NB,Thermal,2015,3254.3,MW
+NS,Thermal,2005,2008.92,MW
+NS,Thermal,2006,2006.42,MW
+NS,Thermal,2007,2006.42,MW
+NS,Thermal,2008,2006.42,MW
+NS,Thermal,2009,2006.12,MW
+NS,Thermal,2010,2006.42,MW
+NS,Thermal,2011,2058.42,MW
+NS,Thermal,2012,2058.42,MW
+NS,Thermal,2013,2058.43,MW
+NS,Thermal,2014,2104.87,MW
+NS,Thermal,2015,2104.87,MW
+PE,Thermal,2005,160,MW
+PE,Thermal,2006,160,MW
+PE,Thermal,2007,160,MW
+PE,Thermal,2008,160,MW
+PE,Thermal,2009,160,MW
+PE,Thermal,2010,161,MW
+PE,Thermal,2011,161,MW
+PE,Thermal,2012,161,MW
+PE,Thermal,2013,163,MW
+PE,Thermal,2014,163,MW
+PE,Thermal,2015,160,MW
+NF,Thermal,2005,862,MW
+NF,Thermal,2006,862,MW
+NF,Thermal,2007,862,MW
+NF,Thermal,2008,862,MW
+NF,Thermal,2009,892,MW
+NF,Thermal,2010,892,MW
+NF,Thermal,2011,889,MW
+NF,Thermal,2012,889,MW
+NF,Thermal,2013,863,MW
+NF,Thermal,2014,971,MW
+NF,Thermal,2015,971,MW
+NWT,Thermal,2005,149,MW
+NWT,Thermal,2006,109.923,MW
+NWT,Thermal,2007,107.18,MW
+NWT,Thermal,2008,111.598,MW
+NWT,Thermal,2009,160.718,MW
+NWT,Thermal,2010,126.998,MW
+NWT,Thermal,2011,126.94,MW
+NWT,Thermal,2012,126.94,MW
+NWT,Thermal,2013,130.76,MW
+NWT,Thermal,2014,104.96,MW
+NWT,Thermal,2015,121.27,MW
+YT,Thermal,2005,33.34,MW
+YT,Thermal,2006,33.34,MW
+YT,Thermal,2007,33.34,MW
+YT,Thermal,2008,33.34,MW
+YT,Thermal,2009,33.34,MW
+YT,Thermal,2010,33.57,MW
+YT,Thermal,2011,33.57,MW
+YT,Thermal,2012,33.57,MW
+YT,Thermal,2013,33.57,MW
+YT,Thermal,2014,33.57,MW
+YT,Thermal,2015,28.97,MW
+NU,Thermal,2005,54.28,MW
+NU,Thermal,2006,54.28,MW
+NU,Thermal,2007,54.28,MW
+NU,Thermal,2008,54.28,MW
+NU,Thermal,2009,54.28,MW
+NU,Thermal,2010,54.28,MW
+NU,Thermal,2011,54.28,MW
+NU,Thermal,2012,54.28,MW
+NU,Thermal,2013,54.28,MW
+NU,Thermal,2014,54.28,MW
+NU,Thermal,2015,54.28,MW
+Canada,Thermal,2005,48632,MW
+Canada,Thermal,2006,49294.748,MW
+Canada,Thermal,2007,49576.17,MW
+Canada,Thermal,2008,51072.968,MW
+Canada,Thermal,2009,51346.658,MW
+Canada,Thermal,2010,52800.668,MW
+Canada,Thermal,2011,52161.14633,MW
+Canada,Thermal,2012,50386.92432,MW
+Canada,Thermal,2013,52721.421,MW
+Canada,Thermal,2014,50600.89,MW
+Canada,Thermal,2015,52039.46,MW
+BC,Wind,2005,0,MW
+BC,Wind,2006,0,MW
+BC,Wind,2007,0,MW
+BC,Wind,2008,0,MW
+BC,Wind,2009,102,MW
+BC,Wind,2010,102,MW
+BC,Wind,2011,246,MW
+BC,Wind,2012,246,MW
+BC,Wind,2013,388,MW
+BC,Wind,2014,488,MW
+BC,Wind,2015,488,MW
+AB,Wind,2005,251,MW
+AB,Wind,2006,386.2,MW
+AB,Wind,2007,525.2,MW
+AB,Wind,2008,525.2,MW
+AB,Wind,2009,591.2,MW
+AB,Wind,2010,723.2,MW
+AB,Wind,2011,865,MW
+AB,Wind,2012,1088,MW
+AB,Wind,2013,1088,MW
+AB,Wind,2014,1434,MW
+AB,Wind,2015,1463,MW
+SK,Wind,2005,15.8,MW
+SK,Wind,2006,171.18,MW
+SK,Wind,2007,171.18,MW
+SK,Wind,2008,171.18,MW
+SK,Wind,2009,171.18,MW
+SK,Wind,2010,171.18,MW
+SK,Wind,2011,196.68,MW
+SK,Wind,2012,196.68,MW
+SK,Wind,2013,196.68,MW
+SK,Wind,2014,196.68,MW
+SK,Wind,2015,221,MW
+MB,Wind,2005,20,MW
+MB,Wind,2006,103.95,MW
+MB,Wind,2007,103.95,MW
+MB,Wind,2008,103.95,MW
+MB,Wind,2009,103.95,MW
+MB,Wind,2010,103.95,MW
+MB,Wind,2011,241.95,MW
+MB,Wind,2012,258.45,MW
+MB,Wind,2013,258.45,MW
+MB,Wind,2014,258.45,MW
+MB,Wind,2015,258.45,MW
+ON,Wind,2005,14.7,MW
+ON,Wind,2006,414,MW
+ON,Wind,2007,491,MW
+ON,Wind,2008,782,MW
+ON,Wind,2009,1168,MW
+ON,Wind,2010,1447,MW
+ON,Wind,2011,1970,MW
+ON,Wind,2012,2053,MW
+ON,Wind,2013,2491,MW
+ON,Wind,2014,3490,MW
+ON,Wind,2015,4374,MW
+QC,Wind,2005,207,MW
+QC,Wind,2006,317,MW
+QC,Wind,2007,417,MW
+QC,Wind,2008,527,MW
+QC,Wind,2009,660,MW
+QC,Wind,2010,664,MW
+QC,Wind,2011,923,MW
+QC,Wind,2012,1354,MW
+QC,Wind,2013,2404,MW
+QC,Wind,2014,2865,MW
+QC,Wind,2015,3262,MW
+NB,Wind,2005,0,MW
+NB,Wind,2006,0,MW
+NB,Wind,2007,0,MW
+NB,Wind,2008,96,MW
+NB,Wind,2009,195,MW
+NB,Wind,2010,195,MW
+NB,Wind,2011,294,MW
+NB,Wind,2012,294,MW
+NB,Wind,2013,294,MW
+NB,Wind,2014,294,MW
+NB,Wind,2015,294,MW
+NS,Wind,2005,34.7,MW
+NS,Wind,2006,37.1,MW
+NS,Wind,2007,42.3,MW
+NS,Wind,2008,43.2,MW
+NS,Wind,2009,43.2,MW
+NS,Wind,2010,122.2,MW
+NS,Wind,2011,216.6,MW
+NS,Wind,2012,320.2,MW
+NS,Wind,2013,326.17,MW
+NS,Wind,2014,328.17,MW
+NS,Wind,2015,443.97,MW
+PE,Wind,2005,13,MW
+PE,Wind,2006,13,MW
+PE,Wind,2007,72,MW
+PE,Wind,2008,72,MW
+PE,Wind,2009,151,MW
+PE,Wind,2010,163,MW
+PE,Wind,2011,163,MW
+PE,Wind,2012,163,MW
+PE,Wind,2013,173,MW
+PE,Wind,2014,203,MW
+PE,Wind,2015,203,MW
+NF,Wind,2005,0,MW
+NF,Wind,2006,0,MW
+NF,Wind,2007,0,MW
+NF,Wind,2008,0,MW
+NF,Wind,2009,54,MW
+NF,Wind,2010,54,MW
+NF,Wind,2011,54,MW
+NF,Wind,2012,54,MW
+NF,Wind,2013,54,MW
+NF,Wind,2014,54,MW
+NF,Wind,2015,54,MW
+NWT,Wind,2005,0,MW
+NWT,Wind,2006,0,MW
+NWT,Wind,2007,0,MW
+NWT,Wind,2008,0,MW
+NWT,Wind,2009,0,MW
+NWT,Wind,2010,0,MW
+NWT,Wind,2011,0,MW
+NWT,Wind,2012,9.2,MW
+NWT,Wind,2013,9.2,MW
+NWT,Wind,2014,9.2,MW
+NWT,Wind,2015,9.2,MW
+YT,Wind,2005,0,MW
+YT,Wind,2006,0.8,MW
+YT,Wind,2007,0.8,MW
+YT,Wind,2008,0.8,MW
+YT,Wind,2009,0.8,MW
+YT,Wind,2010,0.8,MW
+YT,Wind,2011,0.8,MW
+YT,Wind,2012,0.8,MW
+YT,Wind,2013,0.8,MW
+YT,Wind,2014,0.8,MW
+YT,Wind,2015,0.8,MW
+NU,Wind,2005,0,MW
+NU,Wind,2006,0,MW
+NU,Wind,2007,0,MW
+NU,Wind,2008,0,MW
+NU,Wind,2009,0,MW
+NU,Wind,2010,0,MW
+NU,Wind,2011,0,MW
+NU,Wind,2012,0,MW
+NU,Wind,2013,0,MW
+NU,Wind,2014,0,MW
+NU,Wind,2015,0,MW
+Canada,Wind,2005,556.2,MW
+Canada,Wind,2006,1443.23,MW
+Canada,Wind,2007,1823.43,MW
+Canada,Wind,2008,2321.33,MW
+Canada,Wind,2009,3240.33,MW
+Canada,Wind,2010,3746.33,MW
+Canada,Wind,2011,5171.03,MW
+Canada,Wind,2012,6037.33,MW
+Canada,Wind,2013,7683.3,MW
+Canada,Wind,2014,9621.3,MW
+Canada,Wind,2015,11071.42,MW

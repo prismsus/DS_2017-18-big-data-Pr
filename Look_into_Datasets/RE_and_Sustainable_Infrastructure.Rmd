@@ -1,0 +1,34 @@
+---
+title: "Renewable Energy and Sustainable Infrastructure"
+output:
+  html_document:
+    df_print: paged
+---
+```{r}
+library(readr)
+RE_Capacity <- read_csv("Data/Renewable_energy_Capacity.csv")
+RE_Generation <- read_csv("Data/Renewable_energy_Generation.csv")
+RE_Dictionary <- read_csv("Data/RE_Dictionary.csv")
+
+library(dplyr)
+library(tidyr)
+RE_Capacity <- RE_Capacity %>%
+  rename(Data_Capacity = Data) %>%
+  unite(RSV, Region, Source, Year)
+
+RE_Generation <- RE_Generation %>%
+  rename(Data_Generation = Data) %>%
+  unite(RSV, Region, Source, Year)
+
+RE_Full <- full_join(RE_Capacity, RE_Generation, by = "RSV") %>%
+  separate(RSV, into = c("Region", "Source", "Year"), sep = "_") %>%
+  rename(Capacity_MW = Data_Capacity) %>%
+  rename(Generation_GWh = Data_Generation) %>%
+  select(-Unit.x, -Unit.y)
+
+library(ggplot2)
+ggplot(data = RE_Full) +
+  geom_point(mapping = aes(x = Capacity_MW, y = Generation_GWh, color = Region))
+
+```
+

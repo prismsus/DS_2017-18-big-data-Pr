@@ -1,0 +1,30 @@
+,,
+Column,Data Value or Column Name Indication,Description of Data Value or Column Name
+Region,BC,Province of British Columbia
+Region,AB,Province of Alberta
+Region,SK,Province of Saskatchewan
+Region,MB,Province of Manitoba
+Region,ON,Province of Ontario
+Region,QC,Province of Quebec
+Region,NB,Province of New Brunswick
+Region,NS,Province of Nova Scotia
+Region,PE,Province of Prince Edward Island
+Region,NF,Province of Newfoundland and Labrador
+Region,NWT,Northwest Territories
+Region,YT,Yukon Territory
+Region,NU,Nunavut Territory
+Source,Hydro,Hydroelectric power plants
+Source,Wind,Wind power plants
+Source,Biomass,Biomass power plants
+Source,Solar,Solar power plants
+Source,Nuclear,Nuclear power plants
+Source,Coal,Coal power plants
+Source,Natural Gas,Natural gas power plants
+Source,Oil,Oil power plants (fuel oil and diesel)
+Source,Thermal,"Thermal power plants (biomass, nuclear, coal, natural gas and oil)"
+Source,All sources,All power plants
+Source,Renewables,"Renewable power plants (biomass, hydro, solar and wind)"
+Source,Non-hydro renewables,"Non-hydro renewable power plants (biomass, solar and wind)"
+Year,4 digit integer number between 2005 and 2014,Year that the data refers to
+Unit_Capacity,MW,Megawatts is a unit of measure for electricity generation capacity
+Unit_Generation	,GW.h,Gigawatt hours is a unit of measure for electricity generation 
