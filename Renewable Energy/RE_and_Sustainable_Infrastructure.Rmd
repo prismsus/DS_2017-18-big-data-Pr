@@ -26,9 +26,7 @@ RE_Full <- full_join(RE_Capacity, RE_Generation, by = "RSV") %>%
   rename(Generation_GWh = Data_Generation) %>%
   select(-Unit.x, -Unit.y)
 
-library(ggplot2)
-ggplot(data = RE_Full) +
-  geom_point(mapping = aes(x = Capacity_MW, y = Generation_GWh, color = Region))
+RE_Full
 
 ```
 
