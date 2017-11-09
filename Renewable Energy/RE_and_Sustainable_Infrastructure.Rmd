@@ -4,11 +4,15 @@ output:
   html_document:
     keep_md: yes
 ---
+### Data Description
+http://open.canada.ca/data/en/dataset/7e50d70e-f462-48ea-97f5-6c0bc48cfd14 
+
 ```{r}
 library(readr)
 library(dplyr)
 library(tidyr)
 library(ggplot2)
+library(plotly)
 
 RE_Capacity <- read_csv("Data/Renewable_energy_Capacity.csv")
 RE_Generation <- read_csv("Data/Renewable_energy_Generation.csv")
@@ -28,9 +32,8 @@ RE_Full <- full_join(RE_Capacity, RE_Generation, by = "RSV") %>%
   rename(Generation_GWh = Data_Generation) %>%
   select(-Unit.x, -Unit.y)
 
-RE_Full %>%
-  ggplot(aes(Capacity_MW, Generation_GWh, color = Source)) +
-  geom_point()
+ggplotly(ggplot(RE_Full, aes(Capacity_MW, Generation_GWh, color = Source)) +
+  geom_point())
 
 ```
 
