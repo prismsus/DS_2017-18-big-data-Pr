@@ -2,7 +2,7 @@
 title: "Renewable Energy and Sustainable Infrastructure"
 output:
   html_document:
-    df_print: paged
+    keep_md: yes
 ---
 ```{r}
 library(readr)
