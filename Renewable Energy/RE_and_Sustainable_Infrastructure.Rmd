@@ -12,7 +12,6 @@ library(readr)
 library(dplyr)
 library(tidyr)
 library(ggplot2)
-library(plotly)
 
 RE_Capacity <- read_csv("Data/Renewable_energy_Capacity.csv")
 RE_Generation <- read_csv("Data/Renewable_energy_Generation.csv")
@@ -32,8 +31,16 @@ RE_Full <- full_join(RE_Capacity, RE_Generation, by = "RSV") %>%
   rename(Generation_GWh = Data_Generation) %>%
   select(-Unit.x, -Unit.y)
 
-ggplotly(ggplot(RE_Full, aes(Capacity_MW, Generation_GWh, color = Source)) +
-  geom_point())
+ggplot(RE_Full, aes(x = Capacity_MW, y = Generation_GWh)) +
+  geom_point(aes(color = Source))
+
+ggplot(RE_Full %>% filter(Region == "BC"), aes(Year, Generation_GWh)) +
+  geom_point() +
+  facet_grid(Source ~ .)
+
+ggplot(mtcars, aes(wt, mpg)) +
+  geom_point() +
+  facet_grid(. ~ cyl)
 
 ```
 
