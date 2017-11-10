@@ -32,5 +32,11 @@ RE_Full %>%
   ggplot(aes(Capacity_MW, Generation_GWh, color = Source)) +
   geom_point()
 
+Data <- filter(RE_Full, Region == "BC") 
+ggplot(Data, mapping = aes(x = Year, y = Generation_GWh))+
+  geom_point() +
+  facet_wrap(~Source, ncol = 6)
+  
+
 ```
 
