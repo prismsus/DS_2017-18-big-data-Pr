@@ -4,6 +4,9 @@ output:
   html_document:
     keep_md: yes
 ---
+### Data Description
+http://open.canada.ca/data/en/dataset/7e50d70e-f462-48ea-97f5-6c0bc48cfd14 
+
 ```{r}
 library(readr)
 library(dplyr)
@@ -28,9 +31,12 @@ RE_Full <- full_join(RE_Capacity, RE_Generation, by = "RSV") %>%
   rename(Generation_GWh = Data_Generation) %>%
   select(-Unit.x, -Unit.y)
 
-RE_Full %>%
-  ggplot(aes(Capacity_MW, Generation_GWh, color = Source)) +
-  geom_point()
+ggplot(RE_Full, aes(x = Capacity_MW, y = Generation_GWh)) +
+  geom_point(aes(color = Source))
+
+ggplot(RE_Full %>% filter(Region == "BC"), aes(Year, Generation_GWh)) +
+  geom_point() +
+  facet_grid(Source ~ .)
 
 Data <- filter(RE_Full, Region == "BC") 
 ggplot(Data, mapping = aes(x = Year, y = Generation_GWh))+
