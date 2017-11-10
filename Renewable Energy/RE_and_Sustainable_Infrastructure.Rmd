@@ -38,5 +38,9 @@ ggplot(RE_Full %>% filter(Region == "BC"), aes(Year, Generation_GWh)) +
   geom_point() +
   facet_grid(Source ~ .)
 
+Data <- filter(RE_Full, Region == "BC") #, Generation_GWh<=10000
+ggplot(Data, mapping = aes(x = Year, y = Generation_GWh))+
+  geom_point() +
+  facet_wrap(~Source, ncol = 6)
 ```
 
