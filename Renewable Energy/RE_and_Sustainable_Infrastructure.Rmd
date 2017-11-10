@@ -38,9 +38,5 @@ ggplot(RE_Full %>% filter(Region == "BC"), aes(Year, Generation_GWh)) +
   geom_point() +
   facet_grid(Source ~ .)
 
-ggplot(mtcars, aes(wt, mpg)) +
-  geom_point() +
-  facet_grid(. ~ cyl)
-
 ```
 
