@@ -32,8 +32,9 @@ RE_Full <- full_join(RE_Capacity, RE_Generation, by = "RSV") %>%
   rename(Generation_GWh = Data_Generation) %>%
   select(-Unit.x, -Unit.y)
 
-ggplotly(ggplot(RE_Full, aes(Capacity_MW, Generation_GWh, color = Source)) +
-  geom_point())
+ggplot(RE_Full %>% filter(Region == "BC"), aes(Year, Generation_GWh)) +
+  geom_point() +
+  facet_grid(. ~ source)
 
 ```
 
