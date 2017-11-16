@@ -20,7 +20,7 @@ RE_ui <- fluidPage(
                      "Select Year",
                      min = 2005,
                      max = 2015,
-                     value = 2010)
+                     value = 2010),
          selectInput
       ),
       
@@ -40,7 +40,7 @@ RE_server <- function(input, output) {
       hist(x, breaks = bins, col = 'darkgray', border = 'white')
    })
    output$Map <- renderPlot({
-     usa <- map_data("usa") # we already did this, but we can do it again
+     usa <- map_data("usa")
      ggplot() + geom_polygon(data = usa, aes(x=long, y = lat, group = group)) + 
        coord_fixed(1.3)
    })
