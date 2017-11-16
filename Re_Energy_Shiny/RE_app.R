@@ -3,7 +3,7 @@ library(ggplot2)
 library(dplyr)
 
 # Define UI for application that draws a histogram
-ui <- fluidPage(
+RE_ui <- fluidPage(
    
    # Application title
    titlePanel("Renewable Energy Electricity Generation in Each Year"),
@@ -26,7 +26,7 @@ ui <- fluidPage(
 )
 
 # Define server logic required to draw a histogram
-server <- function(input, output) {
+RE_server <- function(input, output) {
    
    output$distPlot <- renderPlot({
       # generate bins based on input$bins from ui.R
@@ -39,5 +39,5 @@ server <- function(input, output) {
 }
 
 # Run the application 
-shinyApp(ui = ui, server = server)
+shinyApp(ui = RE_ui, server = RE_server)
 
