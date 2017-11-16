@@ -1,9 +1,10 @@
 ---
 title: "Renewable Energy and Sustainable Infrastructure"
-author: PRISMS
+author: PRISMS Team
 date: November, 2017
 output:
   ioslides_presentation: 
+    logo: PRISMS_Logo.png
     fig_caption: yes
     keep_md: yes
     smaller: yes

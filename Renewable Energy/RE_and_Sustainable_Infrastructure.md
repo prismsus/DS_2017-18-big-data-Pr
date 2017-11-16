@@ -1,5 +1,5 @@
 # Renewable Energy and Sustainable Infrastructure
-PRISMS  
+PRISMS Team  
 November, 2017  
 
 
