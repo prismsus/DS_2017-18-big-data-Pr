@@ -1,22 +1,43 @@
 ---
 title: "Renewable Energy and Sustainable Infrastructure"
+author: PRISMS Team
+date: November, 2017
 output:
-  html_document:
+  ioslides_presentation: 
+    logo: PRISMS_Logo.png
+    fig_caption: yes
     keep_md: yes
+    smaller: yes
+    widescreen: yes
 ---
-### Data Description
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = T)
+```
+
+## Data Description
 http://open.canada.ca/data/en/dataset/7e50d70e-f462-48ea-97f5-6c0bc48cfd14 
 
-```{r}
+## Load Library
+```{r message=FALSE}
 library(readr)
 library(dplyr)
 library(tidyr)
 library(ggplot2)
+library(plotly)
+library(knitr)
+library(kableExtra)
+```
 
+## Import Datasets
+```{r message=FALSE}
 RE_Capacity <- read_csv("Data/Renewable_energy_Capacity.csv")
 RE_Generation <- read_csv("Data/Renewable_energy_Generation.csv")
 RE_Dictionary <- read_csv("Data/RE_Dictionary.csv")
+```
 
+## Tidy Datasets
+```{r}
 RE_Capacity <- RE_Capacity %>%
   rename(Data_Capacity = Data) %>%
   unite(RSV, Region, Source, Year)
@@ -30,17 +51,42 @@ RE_Full <- full_join(RE_Capacity, RE_Generation, by = "RSV") %>%
   rename(Capacity_MW = Data_Capacity) %>%
   rename(Generation_GWh = Data_Generation) %>%
   select(-Unit.x, -Unit.y)
-
-ggplot(RE_Full, aes(x = Capacity_MW, y = Generation_GWh)) +
-  geom_point(aes(color = Source))
-
-ggplot(RE_Full %>% filter(Region == "BC"), aes(Year, Generation_GWh)) +
-  geom_point() +
-  facet_grid(Source ~ .)
-
-Data <- filter(RE_Full, Region == "BC") #, Generation_GWh<=10000
-ggplot(Data, mapping = aes(x = Year, y = Generation_GWh))+
-  geom_point() +
-  facet_wrap(~Source, ncol = 5)
 ```
 
+## Renewable Energy Dataset
+```{r}
+kable(RE_Full, "html") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
+  scroll_box(width = "90%", height = "400px")
+```
+
+## Dataset Dictionary
+```{r}
+kable(RE_Dictionary, "html") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
+  scroll_box(width = "90%", height = "400px")
+```
+
+## First Basic Plot
+```{r warning=FALSE}
+ggplotly(ggplot(RE_Full, aes(x = Capacity_MW, y = Generation_GWh)) +
+  geom_point(aes(color = Source)))
+```
+
+## Generation vs. Year
+```{r warning=FALSE}
+ggplotly(ggplot(RE_Full %>% filter(Region == "BC"), aes(Year, Generation_GWh)) +
+  geom_point() +
+  facet_grid(Source ~ .))
+```
+
+## Generation vs. Year in facets
+```{r warning=FALSE}
+# Generation_GWh<=10000
+Data <- filter(RE_Full, Region == "BC") 
+
+ggplotly(ggplot(Data, mapping = aes(x = Year, y = Generation_GWh))+
+  geom_point() +
+  facet_wrap(~Source, ncol = 5) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)))
+```

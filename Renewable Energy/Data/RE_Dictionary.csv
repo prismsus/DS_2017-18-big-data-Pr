@@ -1,4 +1,4 @@
-Column,Data Value or Column Name Indication,Description of Data Value or Column Name
+Column,Indication,Description
 Region,BC,Province of British Columbia
 Region,AB,Province of Alberta
 Region,SK,Province of Saskatchewan
@@ -25,5 +25,5 @@ Source,All sources,All power plants
 Source,Renewables,"Renewable power plants (biomass, hydro, solar and wind)"
 Source,Non-hydro renewables,"Non-hydro renewable power plants (biomass, solar and wind)"
 Year,4 digit integer number between 2005 and 2014,Year that the data refers to
-Unit_Capacity,MW,Megawatts is a unit of measure for electricity generation capacity
-Unit_Generation	,GW.h,Gigawatt hours is a unit of measure for electricity generation 
+Capacity,MW,Megawatts is a unit of measure for electricity generation capacity
+Generation	,GW.h,Gigawatt hours is a unit of measure for electricity generation 
