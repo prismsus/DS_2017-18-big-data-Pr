@@ -3,11 +3,9 @@ library(ggplot2)
 library(dplyr)
 library(ggmap)
 library(maps)
-library(mapdata)
 
 
-
-# UI
+# UI -----------------------------------------------------------------
 RE_ui <- fluidPage(
    
    # Application title
@@ -21,7 +19,6 @@ RE_ui <- fluidPage(
                      min = 2005,
                      max = 2015,
                      value = 2010)
-         selectInput
       ),
       
       # Show a plot of the generated distribution
@@ -31,7 +28,7 @@ RE_ui <- fluidPage(
    )
 )
 
-# Server
+# Server -------------------------------------------------------------
 RE_server <- function(input, output) {
    
    output$distPlot <- renderPlot({
