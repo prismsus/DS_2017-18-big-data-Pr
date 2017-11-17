@@ -1,0 +1,22 @@
+---
+title: "Try ggmap"
+output: html_notebook
+---
+
+```{r}
+library(ggplot2)
+library(readr)
+library(ggmap)
+
+Canada_Map <- read_csv("ca_postal_codes.csv")
+
+Canada_ggmap <- get_map(location = 'Canada', zoom = 3, 
+                        maptype = "terrain",
+                        source = 'google', color = 'bw')
+
+ggmap(Canada_ggmap) +
+  geom_polygon(data = Canada_Map, mapping = aes(x = Longitude, y = Latitude, fill = Province, group = Province))
+
+
+
+```

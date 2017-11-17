@@ -90,3 +90,17 @@ ggplotly(ggplot(Data, mapping = aes(x = Year, y = Generation_GWh))+
   facet_wrap(~Source, ncol = 5) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)))
 ```
+
+## Full_Join
+```{r}
+postalCodes <- read_csv("Data/ca_postal_codes.csv")
+Full_Geo <- full_join(RE_Full, postalCodes, by = "Region")
+
+Full_Geo_05 <- Full_Geo %>%
+  filter(Year == 2005)
+
+library(ggplot2)
+ggplot(Full_Geo_05) +
+  geom_polygon(aes(x = Longitude, y = Latitude, fill = Region, group = Region, alpha = as.numeric(Capacity_MW)))
+```
+

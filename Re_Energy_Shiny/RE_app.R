@@ -3,6 +3,7 @@ library(ggplot2)
 library(dplyr)
 library(ggmap)
 library(maps)
+library(readr)
 
 
 # UI -----------------------------------------------------------------
@@ -23,7 +24,7 @@ RE_ui <- fluidPage(
       
       # Show a plot of the generated distribution
       mainPanel(
-         plotOutput("distPlot")
+         plotOutput("Map")
       )
    )
 )
@@ -31,15 +32,17 @@ RE_ui <- fluidPage(
 # Server -------------------------------------------------------------
 RE_server <- function(input, output) {
    
-   output$distPlot <- renderPlot({
-      x    <- faithful[, 2] 
-      Years <- seq(min(x), max(x), length.out = input$bins + 1)
-      hist(x, breaks = bins, col = 'darkgray', border = 'white')
-   })
    output$Map <- renderPlot({
-     usa <- map_data("usa") # we already did this, but we can do it again
-     ggplot() + geom_polygon(data = usa, aes(x=long, y = lat, group = group)) + 
-       coord_fixed(1.3)
+     Canada_Map <- read_csv("ca_postal_codes.csv")
+     
+     Canada_ggmap <- get_map(location = 'Canada', zoom = 3, 
+                             maptype = "terrain",
+                             source = 'google', color = 'bw')
+     
+     ggmap(Canada_ggmap) +
+       geom_polygon(data = Canada_Map, mapping = aes(x = Longitude, y = Latitude, 
+                                                     fill = Province, group = Province)) +
+       ylim(40, 75)
    })
 }
 
