@@ -3,11 +3,9 @@ library(ggplot2)
 library(dplyr)
 library(ggmap)
 library(maps)
-library(mapdata)
 
 
-
-# UI
+# UI -----------------------------------------------------------------
 RE_ui <- fluidPage(
    
    # Application title
@@ -20,8 +18,7 @@ RE_ui <- fluidPage(
                      "Select Year",
                      min = 2005,
                      max = 2015,
-                     value = 2010),
-         selectInput
+                     value = 2010)
       ),
       
       # Show a plot of the generated distribution
@@ -31,7 +28,7 @@ RE_ui <- fluidPage(
    )
 )
 
-# Server
+# Server -------------------------------------------------------------
 RE_server <- function(input, output) {
    
    output$distPlot <- renderPlot({
@@ -40,7 +37,7 @@ RE_server <- function(input, output) {
       hist(x, breaks = bins, col = 'darkgray', border = 'white')
    })
    output$Map <- renderPlot({
-     usa <- map_data("usa")
+     usa <- map_data("usa") # we already did this, but we can do it again
      ggplot() + geom_polygon(data = usa, aes(x=long, y = lat, group = group)) + 
        coord_fixed(1.3)
    })
