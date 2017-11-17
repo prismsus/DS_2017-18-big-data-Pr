@@ -34,6 +34,7 @@ library(ggplot2)
 library(plotly)
 library(knitr)
 library(kableExtra)
+library(gridExtra)
 ```
 
 ## Import Datasets
@@ -104,3 +105,62 @@ ggplotly(ggplot(Data, mapping = aes(x = Year, y = Generation_GWh))+
   facet_wrap(~Source, ncol = 5) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)))
 ```
+
+##shiny graph test
+```{r}
+RE_Full %>%
+  filter(Region == "BC") %>%
+
+ggplot(aes(x = Year, y = Capacity_MW)) +
+  geom_point()+
+  facet_wrap(~Source) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+mutate(renewable = ifelse(Source = c("Solar", ), "T", "F"))
+```
+```{r}
+#Renewable: biomass, hydro, solar, wind
+#Others: Coal, Natural Gas, Nuclear, Oil
+
+t1 <- RE_Full %>%
+  filter(Region == "BC") %>%
+  filter(Source == "Renewables") %>%
+ggplot(aes(x = Year, y = Capacity_MW)) +
+  geom_point() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(y = "Capacity(Megawatts, Renewable)")
+
+t2 <- RE_Full %>%
+  filter(Region == "BC") %>%
+  filter(Source == c("Coal", "Natural Gas", "Nuclear", "Oil")) %>%
+  group_by(Year) %>%
+  summarise(avg_capacity = mean(Capacity_MW)) %>%
+ggplot(aes(x = Year, y = avg_capacity)) +
+  geom_point() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(y = "Capacity(Megawatts, Non-renewable)")
+
+grid.arrange(t1, t2, ncol=2)
+```
+```{r}
+t1 <- RE_Full %>%
+  filter(Region == "YT") %>%
+  filter(Source == "Renewables") %>%
+ggplot(aes(x = Year, y = Capacity_MW)) +
+  geom_point() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(y = "Capacity(Megawatts, Renewable)")
+
+t2 <- RE_Full %>%
+  filter(Region == "YT") %>%
+  filter(Source == c("Coal", "Natural Gas", "Nuclear", "Oil")) %>%
+  group_by(Year) %>%
+  summarise(avg_capacity = mean(Capacity_MW)) %>%
+ggplot(aes(x = Year, y = avg_capacity)) +
+  geom_point() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(y = "Capacity(Megawatts, Non-renewable)")
+
+grid.arrange(t1, t2, ncol=2)
+```
+
