@@ -36,6 +36,7 @@ library(plotly)
 library(knitr)
 library(kableExtra)
 library(gridExtra)
+library(ggmap)
 ```
 
 ## Import Datasets
@@ -78,8 +79,6 @@ kable(RE_Dictionary, "html") %>%
 ```
 
 ## First Basic Plot
-## First Basic Plot 
-
 Description:
 "Renewable_energy_Generation" data don't contain information about Non-renewable energy sources and as we can see from the graph, the relationship between Generation and Capacity is linear. Therefore, we are not using "Renewable_energy_Generation" data in the research.
 
@@ -117,8 +116,13 @@ Full_Geo_05 <- Full_Geo %>%
   filter(Year == 2005)
 
 library(ggplot2)
-ggplot(Full_Geo_05) +
-  geom_polygon(aes(x = Longitude, y = Latitude, fill = Region, group = Region, alpha = as.numeric(Capacity_MW)))
+Canadian_Map <- get_map(location='Canada',zoom=3,
+                       maptype="terrain",
+                       source = 'google', color='bw')
+
+ggmap(Canadian_Map) +
+  geom_polygon(data = Full_Geo_05, aes(x = Longitude, y = Latitude, fill = Region, group = Region, alpha = as.numeric(Capacity_MW))) +
+  ylim(40,75)
 ```
 
 
