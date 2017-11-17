@@ -16,7 +16,14 @@ knitr::opts_chunk$set(cache = T)
 ```
 
 ## Data Description
-http://open.canada.ca/data/en/dataset/7e50d70e-f462-48ea-97f5-6c0bc48cfd14 
+Data from Canada’s Renewable Power Landscape – Energy Market Analysis 2016 report.
+
+This data include provincial and Canadian total renewable electricity capacities from wind, solar, biomass, hydro and other renewables. Annual data from 2005-2015.
+
+Retrieved from: "http://open.canada.ca/data/en/dataset/7e50d70e-f462-48ea-97f5-6c0bc48cfd14" Contains information licensed under the Open Government Licence – Canada.
+
+Capacity:1233 rows, 5 colomns 
+Generation:1849 rows, 5 colomns
 
 ## Load Library
 ```{r message=FALSE}
@@ -61,19 +68,26 @@ kable(RE_Full, "html") %>%
 ```
 
 ## Dataset Dictionary
+
 ```{r}
 kable(RE_Dictionary, "html") %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
   scroll_box(width = "90%", height = "400px")
 ```
 
-## First Basic Plot
+## First Basic Plot 
+
+Description:
+"Renewable_energy_Generation" data don't contain information about Non-renewable energy sources and as we can see from the graph, the relationship between Generation and Capacity is linear. Therefore, we are not using "Renewable_energy_Generation" data in the research.
+
 ```{r warning=FALSE}
 ggplotly(ggplot(RE_Full, aes(x = Capacity_MW, y = Generation_GWh)) +
   geom_point(aes(color = Source)))
 ```
 
 ## Generation vs. Year
+
+
 ```{r warning=FALSE}
 ggplotly(ggplot(RE_Full %>% filter(Region == "BC"), aes(Year, Generation_GWh)) +
   geom_point() +
