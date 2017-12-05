@@ -1,9 +1,0 @@
-base
-readr
-dplyr
-tidyr
-ggplot2
-knitr
-kableExtra
-bindrcpp
-plotly
