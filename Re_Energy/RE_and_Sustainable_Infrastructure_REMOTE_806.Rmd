@@ -106,7 +106,7 @@ ggplotly(ggplot(Data, mapping = aes(x = Year, y = Generation_GWh))+
   theme(axis.text.x = element_text(angle = 90, hjust = 1)))
 ```
 
-##shiny graph test
+## Shiny graph test
 ```{r}
 RE_Full %>%
   filter(Region == "BC") %>%
@@ -119,6 +119,7 @@ ggplot(aes(x = Year, y = Capacity_MW)) +
 mutate(renewable = ifelse(Source = c("Solar", ), "T", "F"))
 ```
 
+## Classification
 ```{r}
 #Renewable: biomass, hydro, solar, wind
 #Others: Coal, Natural Gas, Nuclear, Oil
@@ -144,6 +145,7 @@ ggplot(aes(x = Year, y = avg_capacity)) +
 grid.arrange(t1, t2, ncol=2)
 ```
 
+## Make Graphs
 ```{r}
 t1 <- RE_Full %>%
   filter(Region == "YT") %>%
