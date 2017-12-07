@@ -1,0 +1,10 @@
+base
+readr
+dplyr
+tidyr
+ggplot2
+plotly
+knitr
+kableExtra
+gridExtra
+bindrcpp

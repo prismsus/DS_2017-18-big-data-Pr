@@ -1,18 +1,23 @@
 ---
 title: "Renewable Energy and Sustainable Infrastructure"
-author: PRISMS Team
-date: November, 2017
-output:
-  ioslides_presentation: 
-    logo: PRISMS_Logo.png
-    fig_caption: yes
-    keep_md: yes
-    smaller: yes
-    widescreen: yes
+output: 
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache = T)
+
+# author: PRISMS Team
+# date: December, 2017
+# output:
+#   ioslides_presentation: 
+#     logo: PRISMS_Logo.png
+#     fig_caption: yes
+#     keep_md: yes
+#     smaller: yes
+#     widescreen: yes
 ```
 
 ## Data Description
@@ -116,7 +121,7 @@ ggplot(aes(x = Year, y = Capacity_MW)) +
   facet_wrap(~Source) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
-mutate(renewable = ifelse(Source = c("Solar", ), "T", "F"))
+# mutate(renewable = ifelse(Source = c("Solar"), "T", "F"))
 ```
 
 ## Classification
