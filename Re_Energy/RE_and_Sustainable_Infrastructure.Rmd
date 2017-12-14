@@ -191,7 +191,3 @@ Canada_ggmap <- get_map(location = 'Canada', zoom = 3,
        ylim(40, 75)
 ```
 
-```{r}
-
-```
-
