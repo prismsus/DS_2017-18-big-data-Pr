@@ -40,8 +40,9 @@ RE_server <- function(input, output) {
                              source = 'google', color = 'bw')
      
      ggmap(Canada_ggmap) +
-       geom_polygon(data = Canada_Map, mapping = aes(x = Longitude, y = Latitude, 
-                                                     fill = Province, group = Province)) +
+       geom_polygon(data = Canada_Map, 
+                    mapping = aes(x = Longitude, y = Latitude, 
+                              fill = Province, group = Province)) +
        ylim(40, 75)
    })
 }

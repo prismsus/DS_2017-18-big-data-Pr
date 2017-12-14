@@ -1,18 +1,23 @@
 ---
 title: "Renewable Energy and Sustainable Infrastructure"
-author: PRISMS Team
-date: November, 2017
-output:
-  ioslides_presentation: 
-    logo: PRISMS_Logo.png
-    fig_caption: yes
-    keep_md: yes
-    smaller: yes
-    widescreen: yes
+output: 
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache = T)
+
+# author: PRISMS Team
+# date: December, 2017
+# output:
+#   ioslides_presentation: 
+#     logo: PRISMS_Logo.png
+#     fig_caption: yes
+#     keep_md: yes
+#     smaller: yes
+#     widescreen: yes
 ```
 
 ## Data Description
@@ -35,6 +40,7 @@ library(plotly)
 library(knitr)
 library(kableExtra)
 library(gridExtra)
+library(ggmap)
 ```
 
 ## Import Datasets
@@ -106,20 +112,7 @@ ggplotly(ggplot(Data, mapping = aes(x = Year, y = Generation_GWh))+
   theme(axis.text.x = element_text(angle = 90, hjust = 1)))
 ```
 
-<<<<<<< HEAD
-## Full_Join
-```{r}
-postalCodes <- read_csv("Data/ca_postal_codes.csv")
-Full_Geo <- full_join(RE_Full, postalCodes, by = "Region")
-
-Full_Geo_05 <- Full_Geo %>%
-  filter(Year == 2005)
-
-library(ggplot2)
-ggplot(Full_Geo_05) +
-  geom_polygon(aes(x = Longitude, y = Latitude, fill = Region, group = Region, alpha = as.numeric(Capacity_MW)))
-=======
-##shiny graph test
+## Shiny graph test
 ```{r}
 RE_Full %>%
   filter(Region == "BC") %>%
@@ -129,52 +122,112 @@ ggplot(aes(x = Year, y = Capacity_MW)) +
   facet_wrap(~Source) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
-mutate(renewable = ifelse(Source = c("Solar", ), "T", "F"))
+# mutate(renewable = ifelse(Source = c("Solar"), "T", "F"))
 ```
+```{r}
+RE_Full
+```
+
+## Classification
+```{r}
+t1 <- RE_Full %>%
+  filter(Capacity_MW >0) %>%
+  filter(Region == "YT") %>%
+  filter(Source == "Renewables") %>%
+ggplot(aes(x = Year, y = Capacity_MW)) +
+  geom_point() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(y = "Capacity(Megawatts, Renewable)")
+
+t2 <- RE_Full %>%
+  filter(Capacity_MW >0) %>%
+  filter(Region == "YT") %>%
+  filter(Source == c("Coal", "Natural Gas", "Nuclear", "Oil")) %>%
+  group_by(Year, Source) %>%
+  summarise(avg_capacity = mean(Capacity_MW)) %>%
+ggplot(aes(x = Year, y = avg_capacity, color = Source)) +
+  geom_point() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(y = "Capacity(Megawatts, Non-renewable)")
+
+grid.arrange(t1, t2, ncol=2)
+```
+
+- Renewable to not renewable/ percentage (to elminate effect of region population&area)
+## Make Graphs
+
 ```{r}
 #Renewable: biomass, hydro, solar, wind
 #Others: Coal, Natural Gas, Nuclear, Oil
 
-t1 <- RE_Full %>%
-  filter(Region == "BC") %>%
+p1 <- RE_Full %>%
+  filter(Capacity_MW>0)%>%
+  filter(Region!="Canada")%>%
   filter(Source == "Renewables") %>%
-ggplot(aes(x = Year, y = Capacity_MW)) +
+  mutate(Capacity_MW_1 = Capacity_MW[1])%>%
+  mutate(relative_cap = Capacity_MW/Capacity_MW_1) %>%
+ggplot(aes(x = Year, y = relative_cap, color = Region)) +
   geom_point() +
+  #geom_smooth(se = F, method = "lm") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   labs(y = "Capacity(Megawatts, Renewable)")
 
-t2 <- RE_Full %>%
-  filter(Region == "BC") %>%
-  filter(Source == c("Coal", "Natural Gas", "Nuclear", "Oil")) %>%
-  group_by(Year) %>%
-  summarise(avg_capacity = mean(Capacity_MW)) %>%
-ggplot(aes(x = Year, y = avg_capacity)) +
-  geom_point() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  labs(y = "Capacity(Megawatts, Non-renewable)")
+table(RE_Full$Source)
 
-grid.arrange(t1, t2, ncol=2)
+temp_df1 <- RE_Full %>%
+  filter(Capacity_MW>0)%>%
+  filter(Region!="Canada")%>%
+  filter(Source == c("Coal", "Natural Gas", "Nuclear", "Oil")) %>%
+  group_by(Year, Region) %>%
+  summarise(avg_capacity = mean(Capacity_MW)) %>%
+  filter(Year == 2005|Year == 2006) %>%
+  select(Region, avg_capacity)
+
+
+df2 <- RE_Full %>%
+  filter(Source %in% c("Renewables", "All sources")) %>%
+  select(-Capacity_MW) %>%
+    filter(Generation_GWh>0)%>%
+  tidyr::spread(key = Source, value = Generation_GWh) %>%
+  filter(Region!="Canada")%>%
+  mutate(ratio = Renewables/`All sources`) 
+
+p2 <- df2 %>%
+  ggplot(aes(x = as.numeric(Year), y = ratio, color = Region)) +
+  geom_point(alpha = 0.2, size =1) +
+  geom_smooth(se = F, method = "lm") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(y = "ratio of produced energy (Ren vs all)") +
+  scale_x_continuous(breaks = seq(min(as.numeric(df2$Year)), 
+                                  max(as.numeric(df2$Year)), 1))
+
+grid.arrange(p1, p2, ncol=2)
+
+
 ```
+
+## ggmap Graphs
 ```{r}
-t1 <- RE_Full %>%
-  filter(Region == "YT") %>%
-  filter(Source == "Renewables") %>%
-ggplot(aes(x = Year, y = Capacity_MW)) +
-  geom_point() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  labs(y = "Capacity(Megawatts, Renewable)")
+Canada_Map <- read_csv("Data/ca_postal_codes.csv")
 
-t2 <- RE_Full %>%
-  filter(Region == "YT") %>%
-  filter(Source == c("Coal", "Natural Gas", "Nuclear", "Oil")) %>%
-  group_by(Year) %>%
-  summarise(avg_capacity = mean(Capacity_MW)) %>%
-ggplot(aes(x = Year, y = avg_capacity)) +
-  geom_point() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  labs(y = "Capacity(Megawatts, Non-renewable)")
-
-grid.arrange(t1, t2, ncol=2)
->>>>>>> 1168d004756e0c2595dcfc527bdf5211f2e97d8d
+Full_withGeo <- full_join(Canada_Map, RE_Full, by = "Region")
+     
+Canada_ggmap <- get_map(location = 'Canada', zoom = 3, 
+                        maptype = "terrain",
+                        source = 'google', color = 'bw')
+     
+     ggmap(Canada_ggmap) +
+       geom_polygon(data = Full_withGeo %>% filter(Year == 2015), 
+                    mapping = aes(x = Longitude, y = Latitude, 
+                              fill = Region, group = Region, alpha = Capacity_MW)) +
+       ylim(40, 75)
 ```
 
+```{r}
+#14 regions in total
+RE_Full %>%
+  group_by(Region) %>%
+  summarise(n())
+```
+
+Prediction
