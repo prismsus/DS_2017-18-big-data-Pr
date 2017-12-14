@@ -191,3 +191,16 @@ Canada_ggmap <- get_map(location = 'Canada', zoom = 3,
        ylim(40, 75)
 ```
 
+## World Dataset
+```{r}
+# https://yearbook.enerdata.net 
+
+world_per <- read_csv("Data/Precentage_Renewable_Electricity_Production.csv")
+```
+
+```{r}
+# http://stats.oecd.org 
+
+Edu_Earn <- read_csv("Data/Education_Earning_Data.csv")
+```
+
