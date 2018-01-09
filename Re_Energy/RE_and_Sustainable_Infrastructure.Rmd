@@ -9,11 +9,8 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache = T)
 
-# author: PRISMS Team
-# date: December, 2017
 # output:
 #   ioslides_presentation: 
-#     logo: PRISMS_Logo.png
 #     fig_caption: yes
 #     keep_md: yes
 #     smaller: yes
@@ -171,7 +168,6 @@ ggplot(Can_join, aes(mean_ratio,X2016, color = Region)) +
 ggplot(Can_join, aes(mean_ratio, Area, color = Region)) +
   geom_point()
 ```
-
 
 ## ggmap Graphs
 ```{r}
