@@ -194,13 +194,35 @@ Canada_ggmap <- get_map(location = 'Canada', zoom = 3,
 ## World Dataset
 ```{r}
 # https://yearbook.enerdata.net 
-
 world_per <- read_csv("Data/Precentage_Renewable_Electricity_Production.csv")
+
+worldBankApi <- read_csv("Data/API_5_DS2_en_csv_v2.csv")
+
+worldBankApi <- worldBankApi %>%
+  filter(`Indicator Name` == "Renewable electricity output (% of total electricity output)") %>%
+  select(`Country Name`, `Indicator Name`, `1990`:`2014`)
 ```
 
+## EIA Data
 ```{r}
-# http://stats.oecd.org 
+# install.packages("EIAdata")
+library(EIAdata)
 
-Edu_Earn <- read_csv("Data/Education_Earning_Data.csv")
+key <- "..."
+
+getCatEIA(key = key)
+getCatEIA(key = key, cat = 964164)
+getCatEIA(key = key, cat = 1370522)
+getCatEIA(key = key, cat = 1370526)
+getCatEIA(key = key, cat = 1370539)
+
+ser <- getCatEIA(key = key, cat = 1370688)
+values <- ser$Series_IDs$series_id
+
+tt <- list()
+for(v in values)
+  tt[[v]] <- getEIA(ID = v, key = key)
+
+lapply(tt, function(x) {names(x) <- names("date", "value")})
 ```
 
