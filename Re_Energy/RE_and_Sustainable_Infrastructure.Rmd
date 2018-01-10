@@ -95,6 +95,7 @@ ggplotly(ggplot(RE_Full, aes(x = Capacity_MW, y = Generation_GWh)) +
 ## Generation vs. Year
 
 
+
 ```{r warning=FALSE}
 ggplotly(ggplot(RE_Full %>% filter(Region == "BC"), aes(Year, Generation_GWh)) +
   geom_point() +
@@ -102,6 +103,9 @@ ggplotly(ggplot(RE_Full %>% filter(Region == "BC"), aes(Year, Generation_GWh)) +
 ```
 
 ## Generation vs. Year in facets
+
+
+
 ```{r warning=FALSE}
 # Generation_GWh<=10000
 Data <- filter(RE_Full, Region == "BC") 
@@ -113,14 +117,11 @@ ggplotly(ggplot(Data, mapping = aes(x = Year, y = Generation_GWh))+
 ```
 
 ## Shiny graph test
-```{r}
-RE_Full %>%
-  filter(Region == "BC") %>%
-
-ggplot(aes(x = Year, y = Capacity_MW)) +
+```{r, warning=FALSE} 
+ggplotly(ggplot(Data, mapping = aes(x = Year, y = Capacity_MW)) +
   geom_point()+
   facet_wrap(~Source) +
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)))
 
 # mutate(renewable = ifelse(Source = c("Solar"), "T", "F"))
 ```
