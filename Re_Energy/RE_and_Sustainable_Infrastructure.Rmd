@@ -39,6 +39,8 @@ library(knitr)
 library(kableExtra)
 library(gridExtra)
 library(ggmap)
+library(utils)
+library(EIAdata)
 ```
 
 ## Import Datasets
@@ -120,7 +122,7 @@ grid.arrange(p1, p2, ncol=2)
 ```
 
 ```{r}
-Can_fc_car <- read.csv("canada_car.csv")
+Can_fc_car <- read_csv("canada_car.csv")
 Can_fc_car
 Can_fc_car_ <- Can_fc_car %>%
   select(c(3:15)) %>%
@@ -205,10 +207,6 @@ ggplot(US_energy, aes(Non.Hydro.Renewable.as...of.Total.Generation, Renewable.as
 ```
 
 ```{r}
-library(utils)
-```
-
-```{r}
 world_energy <- read.csv("world_energy.csv")
 world_energy
 ```
@@ -216,7 +214,7 @@ world_energy
 ## EIA Data
 ```{r}
 # install.packages("EIAdata")
-library(EIAdata)
+
 
 key <- "..."
 
@@ -256,7 +254,32 @@ world_maping <- map_data("world")
 full_world <- full_join(worldBankApi, world_maping, by = "region")
 
 ggplotly(p = ggplot(data = full_world) + 
-  geom_polygon(aes(x = long, y = lat, fill = `2014`, group = group), color = "white") + 
+  geom_polygon(aes(x = long, y = lat, fill = `2012`, group = group), color = "white") + 
   guides(fill=FALSE))
+```
+
+#--------------------------------------------------------------------------------------------------------
+
+## World Development Indicator
+```{r}
+wdi_whole <- read_csv("Data/WDIData_2012.csv")
+```
+
+## GDP growth
+```{r}
+gdp_growth_2012 <- wdi_whole %>%
+  filter(`Indicator Code` == "NY.GDP.MKTP.KD.ZG")
+```
+
+## Industry Increase
+```{r}
+industry_add_2012 <- wdi_whole %>%
+  filter(`Indicator Code` == "NV.IND.TOTL.KD.ZG")
+```
+
+## Labor Force
+```{r}
+labor_force_2012 <- wdi_whole %>%
+  filter(`Indicator Code` == "SL.TLF.TOTL.IN")
 ```
 
