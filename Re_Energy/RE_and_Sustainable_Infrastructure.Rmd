@@ -257,7 +257,7 @@ ggplotly(p = ggplot(data = full_world) +
 #--------------------------------------------------------------------------------------------------------
 
 ## World Development Indicator
-```{r}
+```{r message=FALSE, warning=FALSE}
 wdi_whole <- read_csv("Data/WDIData_2012.csv")
 ```
 
