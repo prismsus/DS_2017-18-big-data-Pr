@@ -279,3 +279,15 @@ labor_force_2012 <- wdi_whole %>%
   filter(`Indicator Code` == "SL.TLF.TOTL.IN")
 ```
 
+## Agriculture
+```{r}
+agriculture_2012 <- wdi_whole %>%
+  filter(`Indicator Code` == "NV.AGR.TOTL.ZS")
+```
+
+## Food Production
+```{r}
+food_production_2012 <- wdi_whole %>%
+  filter(`Indicator Code` == "AG.PRD.FOOD.XD")
+```
+
