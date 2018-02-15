@@ -290,4 +290,3 @@ agriculture_2012 <- wdi_whole %>%
 food_production_2012 <- wdi_whole %>%
   filter(`Indicator Code` == "AG.PRD.FOOD.XD")
 ```
-
