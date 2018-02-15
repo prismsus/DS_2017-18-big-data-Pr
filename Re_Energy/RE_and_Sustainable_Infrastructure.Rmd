@@ -53,11 +53,11 @@ RE_Dictionary <- read_csv("Data/RE_Dictionary.csv")
 ## Tidy Datasets
 ```{r}
 RE_Capacity <- RE_Capacity %>%
-  rename(Data_Capacity = Data) %>%
+  # rename(Data_Capacity = Data) %>%
   unite(RSV, Region, Source, Year)
 
 RE_Generation <- RE_Generation %>%
-  rename(Data_Generation = Data) %>%
+  # rename(Data_Generation = Data) %>%
   unite(RSV, Region, Source, Year)
 
 RE_Full <- full_join(RE_Capacity, RE_Generation, by = "RSV") %>%
