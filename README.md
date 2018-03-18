@@ -5,9 +5,23 @@ Output: The Amount of Snowing in a week for North America
 Canada is available, US probably is, too.
 
 (by State - ?)
-(find a trend)
 
 Predictor: 
-  Average Temperature
-  Solar Radiance
-  Gas Emission
+  Atmospheric - Savva
+     Solar Radiance
+     Reflectivity of Earth Surface
+     
+  Greenhouse Effect - Olina
+     CO2
+     CH4
+     N2O
+     H2O
+     Aerosol
+     
+  Cool Study and more - Zhamilya
+  
+  General Weather Data - Gary
+     Temperature
+     Snow 
+     Wind
+  
