@@ -73,7 +73,6 @@ RE_Full
 #Others: Coal, Natural Gas, Nuclear, Oil
 
 p1 <- RE_Full %>%
-  filter(Capacity_MW>0)%>%
   filter(Region!="Canada")%>%
   filter(Source == "Renewables") %>%
   mutate(Capacity_MW_1 = Capacity_MW[1])%>%
