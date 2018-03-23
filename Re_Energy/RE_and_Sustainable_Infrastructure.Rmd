@@ -75,8 +75,6 @@ RE_Full
 p1 <- RE_Full %>%
   filter(Region!="Canada")%>%
   filter(Source == "Renewables") %>%
-  mutate(Capacity_MW_1 = Capacity_MW[1])%>%
-  mutate(relative_cap = Capacity_MW/Capacity_MW_1) %>%
 ggplot(aes(x = Year, y = relative_cap, color = Region)) +
   geom_point() +
   #geom_smooth(se = F, method = "lm") +
