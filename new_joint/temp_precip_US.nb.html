@@ -175,9 +175,38 @@ $(document).ready(function () {
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudGVtcF9wcmVjaXAgPC0gZnVsbF9qb2luKHByZWNpcCwgdGVtcCwgYnkgPSBjKFwiQ291bnRyeVwiLCBcIlllYXJcIiwgXCJNb250aFwiLCBcIklTTzJcIiwgXCJJU08zXCIpKVxuXG5gYGAifQ== -->
-<pre class="r"><code>temp_precip &lt;- full_join(precip, temp, by = c(&quot;Country&quot;, &quot;Year&quot;, &quot;Month&quot;, &quot;ISO2&quot;, &quot;ISO3&quot;))
-</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShyZWFkcilcbmxpYnJhcnkodGlkeXZlcnNlKVxucHJlY2lwIDwtIHJlYWRfY3N2KFwiZGF0YS9wcl8xOTAxXzIwMTUuY3N2XCIpXG5gYGAifQ== -->
+<pre class="r"><code>library(readr)
+library(tidyverse)
+precip &lt;- read_csv(&quot;data/pr_1901_2015.csv&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiUGFyc2VkIHdpdGggY29sdW1uIHNwZWNpZmljYXRpb246XG5jb2xzKFxuICBwciA9IGNvbF9kb3VibGUoKSxcbiAgYFx0WWVhcmAgPSBjb2xfaW50ZWdlcigpLFxuICBNb250aCA9IGNvbF9pbnRlZ2VyKCksXG4gIENvdW50cnkgPSBjb2xfY2hhcmFjdGVyKCksXG4gIElTTzMgPSBjb2xfY2hhcmFjdGVyKCksXG4gIElTTzIgPSBjb2xfY2hhcmFjdGVyKClcbilcbiJ9 -->
+<pre><code>Parsed with column specification:
+cols(
+  pr = col_double(),
+  ` Year` = col_integer(),
+  Month = col_integer(),
+  Country = col_character(),
+  ISO3 = col_character(),
+  ISO2 = col_character()
+)</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudGVtcCA8LSByZWFkX2NzdihcImRhdGEvdGFzXzE5MDFfMjAxNS5jc3ZcIilcbmBgYCJ9 -->
+<pre class="r"><code>temp &lt;- read_csv(&quot;data/tas_1901_2015.csv&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiUGFyc2VkIHdpdGggY29sdW1uIHNwZWNpZmljYXRpb246XG5jb2xzKFxuICB0YXMgPSBjb2xfZG91YmxlKCksXG4gIGBcdFllYXJgID0gY29sX2ludGVnZXIoKSxcbiAgTW9udGggPSBjb2xfaW50ZWdlcigpLFxuICBDb3VudHJ5ID0gY29sX2NoYXJhY3RlcigpLFxuICBJU08zID0gY29sX2NoYXJhY3RlcigpLFxuICBJU08yID0gY29sX2NoYXJhY3RlcigpXG4pXG4ifQ== -->
+<pre><code>Parsed with column specification:
+cols(
+  tas = col_double(),
+  ` Year` = col_integer(),
+  Month = col_integer(),
+  Country = col_character(),
+  ISO3 = col_character(),
+  ISO2 = col_character()
+)</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudGVtcF9wcmVjaXAgPC0gZnVsbF9qb2luKHByZWNpcCwgdGVtcCwgYnkgPSBjKFwiWWVhclwiLCBcIk1vbnRoXCIsIFwiQ291bnRyeVwiLCBcIklTTzJcIiwgXCJJU08zXCIpKVxuYGBgIn0= -->
+<pre class="r"><code>temp_precip &lt;- full_join(precip, temp, by = c(&quot;Year&quot;, &quot;Month&quot;, &quot;Country&quot;, &quot;ISO2&quot;, &quot;ISO3&quot;))</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-output-begin eyJkYXRhIjoiRXJyb3I6IGBieWAgY2FuJ3QgY29udGFpbiBqb2luIGNvbHVtbiBgWWVhcmAgd2hpY2ggaXMgbWlzc2luZyBmcm9tIExIU1xuIn0= -->
 <pre><code>Error: `by` can't contain join column `Year` which is missing from LHS</code></pre>
@@ -186,7 +215,7 @@ $(document).ready(function () {
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKYGBge3J9CmxpYnJhcnkocmVhZHIpCmxpYnJhcnkodGlkeXZlcnNlKQoKcHJlY2lwIDwtIHJlYWRfY3N2KCJkYXRhL3ByXzE5MDFfMjAxNS5jc3YiKQp0ZW1wIDwtIHJlYWRfY3N2KCJkYXRhL3Rhc18xOTAxXzIwMTUuY3N2IikKCnRlbXBfcHJlY2lwIDwtIGZ1bGxfam9pbihwcmVjaXAsIHRlbXAsIGJ5ID0gYygiQ291bnRyeSIsICJZZWFyIiwgIk1vbnRoIiwgIklTTzIiLCAiSVNPMyIpKQpgYGAKCg==</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKYGBge3J9CmxpYnJhcnkocmVhZHIpCmxpYnJhcnkodGlkeXZlcnNlKQoKcHJlY2lwIDwtIHJlYWRfY3N2KCJkYXRhL3ByXzE5MDFfMjAxNS5jc3YiKQp0ZW1wIDwtIHJlYWRfY3N2KCJkYXRhL3Rhc18xOTAxXzIwMTUuY3N2IikKCmBgYAoK</div>
 
 
 
