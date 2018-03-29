@@ -1,0 +1,15 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(readr)
+library(tidyverse)
+
+precip <- read_csv("data/pr_1901_2015.csv")
+temp <- read_csv("data/tas_1901_2015.csv")
+
+temp_precip <- full_join(precip, temp, by = c("Country", "Year", "Month", "ISO2", "ISO3"))
+```
+
